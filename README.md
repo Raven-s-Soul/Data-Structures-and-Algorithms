@@ -1,10 +1,11 @@
 # Data-Structures-and-Algorithms
 
-Roma 3[Roma3](https://www.uniroma3.it)
+[Roma3](https://www.uniroma3.it)
 
 ## Installation
 
 Compiler: [tdm-gcc](https://jmeubank.github.io/tdm-gcc/download/)
+//Any is fine btw
 
 Editor/IDE [vsCode](https://code.visualstudio.com) or [SublimeText](https://www.sublimetext.com/download)
 
