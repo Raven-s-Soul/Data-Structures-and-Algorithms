@@ -4,44 +4,19 @@
 
 ## Installation
 
-Compiler: [tdm-gcc](https://jmeubank.github.io/tdm-gcc/download/)
-//Any is fine btw
+Compiler: Any is fine btw
+Suggested Visual Studio
 
 Editor/IDE [vsCode](https://code.visualstudio.com) or [SublimeText](https://www.sublimetext.com/download)
 
-## What we would do?
+# Subjects:
 
-```c
-#pragma once
-// jk we can't use it, stick with #ifndef
-```
+## Lists and Time Complexity
 
-## Contributing
+Is the base needed, a strong understanding, like after IT-Fundamentals
 
-Pull requests are welcome? For major changes, please open an issue first
-to discuss what you would like to change.
+## Trees
 
-## Cool Extensions for vsCode:
+Binary, Serching, Arbitrary Grade, Black&Red.
 
-- Better Comments
-
-  - Id: aaron-bond.better-comments
-
-- Code Runner
-
-  - Id: formulahendry.code-runner
-
-- IntelliCode
-
-  - Id: VisualStudioExptTeam.vscodeintellicode
-
-- Prettier - Code formatter
-
-  - Id: esbenp.prettier-vscode
-
-- vscode-pdf
-
-  - Id: tomoki1207.pdf
-
-- Docx Viewer/Reader
-  - Id: ShahilKumar.docxreader
+## Graphs
