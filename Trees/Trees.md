@@ -35,12 +35,12 @@ Insted doing tree->dx you are moving into a same grade node.
 
 ## Count nodes
 
-    ```c
-    int count(tree T){
-        if(T == 0) return 0;
-        return 1 + count(T->sx) + count(T->dx);
-    }
-    ```
+```c
+int count(tree T){
+    if(T == 0) return 0;
+    return 1 + count(T->sx) + count(T->dx);
+}
+```
 
 ## Count leafs
 
