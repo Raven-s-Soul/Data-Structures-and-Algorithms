@@ -16,4 +16,4 @@ Is mostly doing the same for IT-Fundamentals
 
 ### Constant , Logarithmic, Linear , Exponential, Factorial.
 
-    [link](https://en.wikipedia.org/wiki/Time_complexity)
+[link](https://en.wikipedia.org/wiki/Time_complexity)
