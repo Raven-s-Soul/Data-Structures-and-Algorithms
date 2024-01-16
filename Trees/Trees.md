@@ -18,6 +18,16 @@ Each Node has pointets to nodes: sx, dx. //Tecnicaly u can have a parent too...
 
 Like list you can do list->next ... you can do tree->sx or tree->dx
 
+```c
+typedef struct nodo{
+    int info;
+    struct nodo *dx;
+    struct nodo *sx;
+} nodo;
+
+typedef nodo * tree;
+```
+
 ## Serching
 
 Really similar to the Binary but they the info inside each node is based on the position on the tree, on the left you have lower numbers and on right you have higher numbers.
@@ -44,7 +54,24 @@ int count(tree T){
 
 ## Count leafs
 
+```c
+int leafs(tree T){
+    if(T == 0) return 0;
+    if(T->sx == NULL & T->sx == NULL) return 1;
+    return leafs(T->sx) + leafs(T->dx);
+}
+```
+
 ## Count height
+
+```c
+int height(tree T){
+    if(T == 0) return -1;
+    int s = height(T->sx);
+    int d = height(T->dx);
+    return (d > s)? d+1 : s+1;
+}
+```
 
 ## Add on the tree
 
