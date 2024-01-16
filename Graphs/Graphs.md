@@ -22,7 +22,7 @@ void setup(grafo_l *g){
 ```c
 void dfs(grafo_l *g, int nodo; int *color){
     color[nodo]=1;
-    elem* c = g->a[nodo];
+    elem* x = g->a[nodo];
     while(x != 0){
         if(color[x->info] == 0)
             dfs(g, x->info , color);
