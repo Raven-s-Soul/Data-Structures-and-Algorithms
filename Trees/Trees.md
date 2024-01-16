@@ -41,18 +41,18 @@ Insted doing tree->dx you are moving into a same grade node.
 
 ## Black&Red
 
-# Functions that you should know...
+# Functions that you should know:
 
-## Count nodes
+### Count nodes
 
 ```c
 int count(tree T){
-    if(T == 0) return 0;
+    if(T == 0) return 0; // if(T == NULL) is the same since in C, NULL is a macro to 0.
     return 1 + count(T->sx) + count(T->dx);
 }
 ```
 
-## Count leafs
+### Count leafs
 
 ```c
 int leafs(tree T){
@@ -62,7 +62,7 @@ int leafs(tree T){
 }
 ```
 
-## Count height
+### Count height
 
 ```c
 int height(tree T){
@@ -73,6 +73,18 @@ int height(tree T){
 }
 ```
 
-## Add on the tree
+### Sub tree search
 
-## Remove from the tree
+```c
+//Example of sub search by int values.
+//Return true if any node has the same value of antother one.
+int func(tree T, int value){
+    if(T == 0) return 0;
+    return (T->info == value) || func(T->sx, value) || func(T->dx, value) ||
+    func(T->sx, T->info) || func(T->dx, T->info) ;
+}
+```
+
+### Add on the tree
+
+### Remove from the tree
