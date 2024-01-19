@@ -1,14 +1,12 @@
 # Graphs
 
-## Gaph lists
+## Gaph lists:
 
-## Gaph matrix
+## Gaph matrix:
 
-## Gaph objects
+## Gaph objects:
 
-# Code:
-
-### Graphs by objects (Struct) -Example form the tests
+### Graphs by objects (Struct) - Example form the tests
 
 ```c
 typedef struct struct_nodo nodo;  // forward declaration
@@ -49,7 +47,7 @@ typedef struct struct_grafo {  // graph
 } grafo_o;
 ```
 
-### Example of solution using graphs as Objects:
+### Example of solution
 
 ```c
 int test(grafo_o* g) {
