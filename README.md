@@ -21,3 +21,5 @@ Binary, Serching, Arbitrary Grade, Black&Red.
 Is mostly teory, so at least you should understand what is it's and how it works.
 
 ## [Graphs](Graphs/Graphs.md)
+
+### by [Lists](Graphs/Graphs.md#gaph-lists), [Matrix](Graphs/Graphs.md#gaph-matrix), [Objects](Graphs/Graphs.md#gaph-objects).
