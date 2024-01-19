@@ -84,7 +84,7 @@ int func(tree T, int value){
     func(T->sx, T->info) || func(T->dx, T->info) ;
 }
 ```
-
+<!--
 ### Add on the tree
 
 ### Remove from the tree
