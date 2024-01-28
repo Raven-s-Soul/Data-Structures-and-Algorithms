@@ -16,7 +16,7 @@ Is the base needed, a strong understanding, like after IT-Fundamentals
 
 Binary, Serching, Arbitrary Grade, Black&Red.
 
-## Hash
+## [Hash](Hash/Hash.md)
 
 Is mostly teory, so at least you should understand what is it's and how it works.
 
