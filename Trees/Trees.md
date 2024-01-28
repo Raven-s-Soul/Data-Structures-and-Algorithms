@@ -46,7 +46,11 @@ typedef nodo * tree;
     The root and sentinels are all black, and if a node is red both the sons are black.
     Every path from the root to the sentinel has K black nodes, where the path/arch at min K-1 or 2(K-1) at max.
     Thats's why the height is the path-1.
-
+#### Height, Insert, delete = Theta log(n)
+#### Rotate = Theta 1;
+    Attention when insert and delete nodes may break the rules that keep a the tree balanced.
+    In case of Break the fix function may take up to Theta log(n).
+    
 # Functions that you should know:
 
 ### Count nodes
