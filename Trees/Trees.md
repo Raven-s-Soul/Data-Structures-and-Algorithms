@@ -5,14 +5,18 @@ They are really like lists, but they have more pointers to other nodes.
     There is the Root (the head of the tree)
     There are nodes (Like the Root, but they are "Roots" of other "Sub-Trees")
     There are in the end leafs (They are nodes, but they are at the end of the tree)
-    Nodes have grades based on their position and height based from the root.
-
+    Nodes have grades based on their position and height based from the root,
+    the root of the tree is at height 0.
+    
 ### There are differents kinds like:
 
 ## Binary
 
     Each Node has pointets to nodes: sx, dx. //Tecnicaly u can have a parent too...
     Like list you can do list->next ... you can do tree->sx or tree->dx
+    If each node has at max 2 node sons is binary, 
+    and if each node has exactly 2 node is a complete binary.
+    In the complete binary case 2^h = leafs and h = log2(leafs) where h is the height.
 
 ```c
 typedef struct nodo{
