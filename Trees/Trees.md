@@ -28,11 +28,11 @@ typedef struct nodo{
 typedef nodo * tree;
 ```
 
-## Serching
+## Searching
 
     Really similar to the Binary but they the info inside each node is based on the position on the tree, 
     on the left you have lower numbers and on right you have higher numbers.
-    In this way you can serch a value using the binary search much more faster then linear.
+    In this way you can search a value using the binary search (log) much more faster then linear.
 
 ## Arbitrary Grade
 
@@ -42,15 +42,10 @@ typedef nodo * tree;
 
 ## Black&Red
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Nunc sed augue lacus viverra vitae. 
-    Odio aenean sed adipiscing diam donec adipiscing tristique. Vulputate dignissim suspendisse in est ante in nibh mauris. 
-    Sed vulputate odio ut enim blandit volutpat. 
-    Purus in mollis nunc sed id semper risus in. Et sollicitudin ac orci phasellus egestas tellus rutrum. 
-    In fermentum posuere urna nec tincidunt praesent semper. 
-    Tincidunt id aliquet risus feugiat in ante metus. Proin libero nunc consequat interdum varius sit amet mattis. 
-    Facilisi nullam vehicula ipsum a arcu. Aliquam faucibus purus in massa tempor nec feugiat nisl. Risus sed vulputate odio ut enim. 
-    Bibendum at varius vel pharetra vel turpis nunc. Eu ultrices vitae auctor eu augue ut lectus arcu.
+    Their concept is to keep the searching tree bilanced, every node can be Red or Black.
+    The root and sentinels are all black, and if a node is red both the sons are black.
+    Every path from the root to the sentinel has K black nodes, where the path/arch at min K-1 or 2(K-1) at max.
+    Thats's why the height is the path-1.
 
 # Functions that you should know:
 
