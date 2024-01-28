@@ -1,13 +1,5 @@
 # Data-Structures-and-Algorithms [Roma3](https://www.uniroma3.it)
 
-## Installation
-
-Compiler: Any
-
-Editor/IDE [vsCode](https://code.visualstudio.com) or [SublimeText](https://www.sublimetext.com/download)
-
-# Subjects:
-
 ## [Lists and Time Complexity](Lists/Lists.md)
 
 Is the base needed, a strong understanding, like after IT-Fundamentals
