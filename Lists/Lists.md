@@ -2,6 +2,13 @@
 
 Is mostly doing the same for IT-Fundamentals
 
+## RAM - Random Access Machine
+
+    RAM is an abstract machine even more elemental then Von Neumann's Machine
+    The memory is on the base of the RAM-Random Access Memory.
+    Sequenzial Imput and Output.
+    Every operation is constant, and the istructions are followed in linerity.
+
 ## Pointers
 
 ```c
