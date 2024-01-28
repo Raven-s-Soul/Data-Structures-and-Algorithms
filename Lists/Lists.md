@@ -21,22 +21,23 @@ struct nodo{
 ```
 ## "Pile" or Stack :
 
-#### [LIFO - Last in First out]
-You can immagine like a normal array of elements,
-
-using functions like "Push" you insert the element in the first slot avaible, and using "POP" you get and remove the last element.
+    [LIFO - Last in First out]
+    You can immagine like a normal array of elements,
+    using functions like "Push" you insert the element in the first slot avaible,
+    and using "POP" you get and remove the last element.
 
 ## Crescita Telescopica & Complessità ammortizzata:
-whenever you reach the end of the Stack, you can Re-allocate by x2 the slots/size, doing this you have a spike of Theta(N) of on that istance
-
-but you can think of amortize the spike, thinking to do the same work of that instance over time so it basicly become a constant Theta(1).
+    whenever you reach the end of the Stack, you can Re-allocate by x2 the slots/size,
+    doing this you have a spike of Theta(N) of on that istance,
+    but you can think of amortize the spike, thinking to do the same work of that instance 
+    over time so it basicly become a constant Theta(1).
 
 ## "Code" or Queue:
 
-#### [FIFO - First in First out] 
-You can immagine it like an circolar array (if you try to add in tail and exced the N value, basicly you index+1 % N) of size N-1,
- 
-using functions like "Enqueue" you can insert the element in the tail, and using "Dequeue" you get and remove the head element.  
+    [FIFO - First in First out] 
+    You can immagine it like an circolar array (if you try to add in tail and exced the N value,
+    basicly you index+1 % N) of size N-1, using functions like "Enqueue" you can insert the element in the tail,
+    and using "Dequeue" you get and remove the head element.  
 
 ## [Sentinel node](https://en.wikipedia.org/wiki/Sentinel_node)
 ```c
@@ -60,3 +61,8 @@ head->info = NULL;
 #### Omega notation (lower bind)
 
 #### [Time_complexity](https://en.wikipedia.org/wiki/Time_complexity): Constant , Logarithmic, Linear , Exponential, Factorial. 
+
+### Onerous & Faster Method:
+    The Onerous method is based on the sharp analisys of the pseudocode.
+    Meanwhile the Faster method add the different costs of each pice of code and the result is the asymptotic value of it.
+
