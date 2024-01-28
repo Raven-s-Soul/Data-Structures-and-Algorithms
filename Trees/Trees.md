@@ -50,7 +50,19 @@ typedef nodo * tree;
 #### Rotate = Theta 1;
     Attention when insert and delete nodes may break the rules that keep a the tree balanced.
     In case of Break the fix function may take up to Theta log(n).
+
+## Priority Queue and Heap 
+
+Priority Queue: the user can insert the element with his priority and when needed can ask the element with the higher priority
+
+    Each element has his own priority value, that define the sorting.
+
+### Heap
+
+    Is a "Special Array" where the value of each element rappresent the position in the array.
     
+### [Heap Sort](../SortingAlgorithms/SortingAlgorithms.md#heap-sort)
+
 # Functions that you should know:
 
 ### Count nodes
