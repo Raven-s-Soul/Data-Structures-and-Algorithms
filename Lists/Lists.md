@@ -26,6 +26,11 @@ You can immagine like a normal array of elements,
 
 using functions like "Push" you insert the element in the first slot avaible, and using "POP" you get and remove the last element.
 
+## Crescita Telescopica & Complessità ammortizzata:
+whenever you reach the end of the Stack, you can Re-allocate by x2 the slots/size, doing this you have a spike of Theta(N) of on that istance
+
+but you can think of amortize the spike, thinking to do the same work of that instance over time so it basicly become a constant Theta(1).
+
 ## "Code" or Queue:
 
 #### [FIFO - First in First out] 
