@@ -8,7 +8,7 @@ Is the base needed, a strong understanding, like after IT-Fundamentals
 
 ## [Trees](Trees/Trees.md)
 
-[Binary](Trees/Trees.md#binary), [Serching](Trees/Trees.md#serching), [Arbitrary Grade](Trees/Trees.md#arbitrary-grade), [Black&Red](Trees/Trees.md#blackred).
+[Binary](Trees/Trees.md#binary), [Searching](Trees/Trees.md#searching), [Arbitrary Grade](Trees/Trees.md#arbitrary-grade), [Black&Red](Trees/Trees.md#blackred).
 
 ## [Hash](Hash/Hash.md)
 
