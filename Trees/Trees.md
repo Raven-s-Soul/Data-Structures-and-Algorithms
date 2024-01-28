@@ -11,12 +11,12 @@ They are really like lists, but they have more pointers to other nodes.
 ### There are differents kinds like:
 
 ## Binary
-
-    Each Node has pointets to nodes: sx, dx. //Tecnicaly u can have a parent too...
-    Like list you can do list->next ... you can do tree->sx or tree->dx
-    If each node has at max 2 node sons is binary, 
-    and if each node has exactly 2 node is a complete binary.
-    In the complete binary case 2^h = leafs and h = log2(leafs) where h is the height.
+> [!NOTE]
+>>     Each Node has pointets to nodes: sx, dx. //Tecnicaly u can have a parent too...
+>>     Like list you can do list->next ... you can do tree->sx or tree->dx
+>>     If each node has at max 2 node sons is binary, 
+>>     and if each node has exactly 2 node is a complete binary.
+>>     In the complete binary case 2^h = leafs and h = log2(leafs) where h is the height.
 
 ```c
 typedef struct nodo{
@@ -42,14 +42,18 @@ typedef nodo * tree;
 
 ## Black&Red
 
-    Their concept is to keep the searching tree bilanced, every node can be Red or Black.
-    The root and sentinels are all black, and if a node is red both the sons are black.
-    Every path from the root to the sentinel has K black nodes, where the path/arch at min K-1 or 2(K-1) at max.
-    Thats's why the height is the path-1.
-#### Height, Insert, delete = Theta log(n)
-#### Rotate = Theta 1;
-    Attention when insert and delete nodes may break the rules that keep a the tree balanced.
-    In case of Break the fix function may take up to Theta log(n).
+> [!IMPORTANT]
+>>     Their concept is to keep the searching tree bilanced, every node can be Red or Black.
+>>     The root and sentinels are all black, and if a node is red both the sons are black.
+>>     Every path from the root to the sentinel has K black nodes, where the path/arch at min K-1 or 2(K-1) at max.
+>>     Thats's why the height is the path-1.
+
+> [!CAUTION]
+>>#### Height, Insert, delete = Theta log(n)
+>>#### Rotate = Theta 1;
+>>
+>>     Attention when insert and delete nodes may break the rules that keep a the tree balanced.
+>>     In case of Break the fix function may take up to Theta log(n).
 
 ## Priority Queue and Heap 
 
@@ -58,8 +62,12 @@ Priority Queue: the user can insert the element with his priority and when neede
     Each element has his own priority value, that define the sorting.
 
 ### Heap
-
-    Is a "Special Array" where the value of each element rappresent the position in the array.
+>[!TIP]
+>>     Is a "Special Array" where the value of each element rappresent the position in the array.
+>>     There are max-heap or min-heap versions
+>#### You got an Array, now display it like a tree, so the nodes with the same grade has a close priority to the other.
+>    Now chose ***i*** a node in the tree, the sons are at 2***i*** +1 and 2***i***+2,
+>    and the parent if ***i*** != 0 is at (***i***-1)/2 
     
 ### [Heap Sort](../SortingAlgorithms/SortingAlgorithms.md#heap-sort)
 
