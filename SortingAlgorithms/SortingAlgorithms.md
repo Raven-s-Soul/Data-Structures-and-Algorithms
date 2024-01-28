@@ -1,1 +1,3 @@
-#Sorting Algorithms
+# Sorting Algorithms
+
+## Heap Sort
