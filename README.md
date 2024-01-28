@@ -4,7 +4,7 @@
 
 Is the base needed, a strong understanding, like after IT-Fundamentals
 
-[Pointers](Lists/Lists.md#Pointers), [Struct/ADT](Lists/Lists.md#struct-or-adtabstract-data-type), [Stack](Lists/Lists.md#pile-or-stack-), [Queue](Lists/Lists.md#code-or-queue), [Complextity](Lists/Lists.md#complextity).
+[Random Access Machine](Lists/Lists.md#ram---random-access-machine), [Pointers](Lists/Lists.md#Pointers), [Struct/ADT](Lists/Lists.md#struct-or-adtabstract-data-type), [Stack](Lists/Lists.md#pile-or-stack-), [Queue](Lists/Lists.md#code-or-queue), [Complextity](Lists/Lists.md#complextity).
 
 ## [Trees](Trees/Trees.md)
 
