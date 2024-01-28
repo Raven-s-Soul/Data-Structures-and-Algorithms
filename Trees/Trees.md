@@ -49,8 +49,8 @@ typedef nodo * tree;
 >>     Thats's why the height is the path-1.
 
 > [!CAUTION]
->>#### Height, Insert, delete = Theta log(n)
->>#### Rotate = Theta 1;
+> #### Height, Insert, delete = Theta log(n)
+> #### Rotate = Theta 1;
 >>
 >>     Attention when insert and delete nodes may break the rules that keep a the tree balanced.
 >>     In case of Break the fix function may take up to Theta log(n).
@@ -67,7 +67,12 @@ Priority Queue: the user can insert the element with his priority and when neede
 >>     There are max-heap or min-heap versions
 >#### You got an Array, now display it like a tree, so the nodes with the same grade has a close priority to the other.
 >    Now chose ***i*** a node in the tree, the sons are at 2***i*** +1 and 2***i***+2,
->    and the parent if ***i*** != 0 is at (***i***-1)/2 
+>    and the parent if ***i*** != 0 is at (***i***-1)/2.
+>
+>    The max-heap has at element ***i*** a higher priority then every descending node,
+>    for the min-heap is the opposite.
+>
+>    The function **Max-heapify** make node ***i*** the highest priority of the sub tree it cost at max Theta log(n).
     
 ### [Heap Sort](../SortingAlgorithms/SortingAlgorithms.md#heap-sort)
 
