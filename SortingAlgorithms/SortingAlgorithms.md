@@ -26,6 +26,13 @@
 > - [Iterative](SortingAlgorithms.md#greedy)
 >   -  [Merge Sort](SortingAlgorithms.md#merge-sort)
 >   -  [Quick Sort](SortingAlgorithms.md#quick-sort)
+> ## Master theorem (teorema dell’esperto)
+> - a,b > 1
+> - T(n) = { Theta 1                    if n = 0
+> -            { a*T(n/b) + O(n^k)   if n > 0
+>>     if a < b^k -> T(n) = Theta n^k
+>>     if a = b^k -> T(n) = Theta n^k log(k)
+>>     if a > b^k -> T(n) = Theta n^logb(a) 
 
 ## Selection sort
 >  [!NOTE]
