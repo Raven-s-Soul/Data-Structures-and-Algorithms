@@ -11,7 +11,8 @@
 > - [Complextity](Lists/Lists.md#complextity)
 
 ## [Trees](Trees/Trees.md)
-> [!NOTE]
+> [!IMPORTANT]
+>  Focus, they look the same but they aren't.  
 > - [Binary](Trees/Trees.md#binary)
 > - [Searching](Trees/Trees.md#searching-or-abr)
 > - [Arbitrary Grade](Trees/Trees.md#arbitrary-grade)
@@ -19,11 +20,16 @@
 > - [Priority Queue and Heap](Trees/Trees.md#priority-queue-and-heap)
 
 ## [Hash](Hash/Hash.md)
-
-Is mostly teory, so at least you should understand what is it's and how it works.
+> [!WARNING]
+> Is mostly teory, so at least you should understand what is it's and how it works.
 
 ## [Graphs](Graphs/Graphs.md)
-
-[Lists](Graphs/Graphs.md#gaph-lists), [Matrix](Graphs/Graphs.md#gaph-matrix), [Objects](Graphs/Graphs.md#gaph-objects).
+> [!NOTE]
+> The last step, you're so close!
+> - [Lists](Graphs/Graphs.md#gaph-lists)
+> - [Matrix](Graphs/Graphs.md#gaph-matrix)
+> - [Objects](Graphs/Graphs.md#gaph-objects)
 
 ## [Sorting Algorithms](SortingAlgorithms/SortingAlgorithms.md)
+> [!CAUTION]
+> They are hard to remember
