@@ -38,3 +38,8 @@
 ## [Sorting Algorithms](SortingAlgorithms/SortingAlgorithms.md)
 > [!CAUTION]
 > They are just hard to remember, litteraly is teory so ***Hold still!***
+> - [Properties](SortingAlgorithms/SortingAlgorithms.md#greedy)
+> - [Selection sort](SortingAlgorithms/SortingAlgorithms.md#selection-sort)
+> - [Insertion sort](SortingAlgorithms/SortingAlgorithms.md#insertion-sort)
+> - [Heap Sort](SortingAlgorithms/SortingAlgorithms.md#heap-sort)
+> - [Tree Sort](SortingAlgorithms/SortingAlgorithms.md#tree-sort)
