@@ -7,10 +7,11 @@
 
 > [!IMPORTANT]
 > ## Greedy
-> -  This kind of approach look always for the best at the moment, even if isn't worth over time.
->     -  Selection sort
+> - This kind of approach look always for the best at the moment, even if isn't worth over time.
+>     - Selection sort
 > ## Iteratives
->
+> - The solution of a simple case can help doing a hard one. 
+>     - Insertion sort
 > ## Property
 > - *on site* `do not need extra space`
 > - *stable* `don't swap the order of object with the same value`
