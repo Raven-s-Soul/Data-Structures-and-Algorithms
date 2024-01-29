@@ -22,6 +22,10 @@
 ## [Hash](Hash/Hash.md)
 > [!WARNING]
 > Is mostly teory, so at least you should understand what is it's and how it works.
+> - [Hash Table](Hash/Hash.md#hash-table)
+> - [Equal](Hash/Hash.md#equal-functions)
+> - [Hash Function](Hash/Hash.md#hash-functions)
+> - Hash functions for differents data type are not included.
 
 ## [Graphs](Graphs/Graphs.md)
 > [!NOTE]
