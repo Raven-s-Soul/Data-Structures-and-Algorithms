@@ -55,7 +55,8 @@
 > Ex: Split the array in smaller ones till they are just 2 numbers then order and merge with others ordered pairs.
 > ###  Theta n*log(n)
 >  -  *[Divide Et Impera](SortingAlgorithms.md#divide-et-impera)*
->  -  **
+>  -  *is not on site*
+>  -  *is stable*
 
 ## Quick Sort
 >  [!NOTE]
