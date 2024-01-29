@@ -62,4 +62,15 @@ The growth in case of key collide is gonna slow eventually into Theta n.
 >>     Take and index from 0 to m until you find one empthy, else overflow.
 
 > [!CAUTION]
-> ***Delete*** for open addressing is critical, that's the reason we prefer using this solution when we don't need to *delete*. 
+> ***Delete*** for open addressing is critical, that's the reason we prefer using this solution when we don't need to *delete*.
+>
+> Search complexity up to (1/Alpha)*ln(1/(1-Alpha))
+
+## Scanning Function
+> [!NOTE]
+> - Linear
+>    - hash(k)+1 mod(m) `from index+1 mod m until found`
+> - Quadratic
+>    - hash(k)+ ***c1*** + ***c2***^2 mod(m) `c1, c2 depends on m`
+> - Double Hash
+>
