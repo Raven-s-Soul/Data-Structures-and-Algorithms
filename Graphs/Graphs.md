@@ -36,6 +36,10 @@
 > Nodes and arcs are stored in doubly linked lists
 > - Every node has a list of arcs linked to him
 > - Every arc has a connection from and to
+>   
+> When we work with objects we usualy **mark** visited nodes to not cycle the path, we use color.
+>
+> There are differents way to see the graphs like bfs and dfs.
 
 ### Graphs by objects (Struct) - Example form the tests
 
