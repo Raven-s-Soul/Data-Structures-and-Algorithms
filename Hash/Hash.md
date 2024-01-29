@@ -75,5 +75,6 @@ The growth in case of key collide is gonna slow eventually into Theta n.
 > - Double Hash
 >    - hash1(k) + ***i*** * Hash2(k) mod(m)
 >>     Hash1, Hash2 both auxialiary, but the first try is using Hask1.
->>     Need Hash2(K) > 0 to work.
+>>     Need Hash2(K) > 0 and Hash2(K) need to be prime with m.
 >>     Every key produce different index sequences, up to m^2 combiantions.
+>>     
