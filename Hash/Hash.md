@@ -19,3 +19,14 @@
 >   
 
 ## Hash Functions
+> [!TIP]
+> There are different functions and each work differently but we can immagine there is a black box
+> and we know only that with an input you get an output.
+> - *Deterministic* `same input same output`
+> - *Theta 1*  `need to be fast`
+> - *Uniform distribution* `each Hash(key)=index but unless you know the result there are equal chances`
+> - *Load factor*
+>>     n = elements inserted, m = index range.
+>>     if n/m = 1 every slot is used only 1 element
+>>     if n/m > 1 more elements then the slots
+>>     if n/m < 1 less elemntts then the slots
