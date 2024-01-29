@@ -1,14 +1,22 @@
 # Data-Structures-and-Algorithms [Roma3](https://www.uniroma3.it)
 
 ## [Lists and Time Complexity](Lists/Lists.md)
-
-Is the base needed, a strong understanding, like after IT-Fundamentals
-
-[Random Access Machine](Lists/Lists.md#ram---random-access-machine), [Pointers](Lists/Lists.md#Pointers), [Struct/ADT](Lists/Lists.md#struct-or-adtabstract-data-type), [Stack](Lists/Lists.md#pile-or-stack-), [Queue](Lists/Lists.md#code-or-queue), [Complextity](Lists/Lists.md#complextity).
+> [!TIP]
+> Is the base needed, a strong understanding, like after IT-Fundamentals
+> - [Random Access Machine](Lists/Lists.md#ram---random-access-machine)
+> - [Pointers](Lists/Lists.md#Pointers)
+> - [Struct/ADT](Lists/Lists.md#struct-or-adtabstract-data-type)
+> - [Stack](Lists/Lists.md#pile-or-stack-)
+> - [Queue](Lists/Lists.md#code-or-queue)
+> - [Complextity](Lists/Lists.md#complextity)
 
 ## [Trees](Trees/Trees.md)
-
-[Binary](Trees/Trees.md#binary), [Searching](Trees/Trees.md#searching-or-abr), [Arbitrary Grade](Trees/Trees.md#arbitrary-grade), [Black&Red](Trees/Trees.md#blackred), [Priority Queue and Heap](Trees/Trees.md#priority-queue-and-heap).
+> [!NOTE]
+> - [Binary](Trees/Trees.md#binary)
+> - [Searching](Trees/Trees.md#searching-or-abr)
+> - [Arbitrary Grade](Trees/Trees.md#arbitrary-grade)
+> - [Black&Red](Trees/Trees.md#blackred)
+> - [Priority Queue and Heap](Trees/Trees.md#priority-queue-and-heap)
 
 ## [Hash](Hash/Hash.md)
 
