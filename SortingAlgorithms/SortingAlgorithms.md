@@ -24,8 +24,8 @@
 > ## Divide Et Impera
 > - Cut the problem in smaller and simpler ones
 > - [Iterative](SortingAlgorithms.md#greedy)
->   -  [Merge Sort]()
->   -  [Quick Sort]()
+>   -  [Merge Sort](SortingAlgorithms.md#merge-sort)
+>   -  [Quick Sort](SortingAlgorithms.md#quick-sort)
 
 ## Selection sort
 >  [!NOTE]
