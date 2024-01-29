@@ -33,7 +33,7 @@ typedef nodo * tree;
 > ### *Associative Array* (map or dictionary)
 >     They ask for a key that can be a int or string ecc and he gave back a value or answer
 >     The best is Only one key to only one answer [Linear]
->
+>     Can be made using 2 Arrays, lists and trees.
 >### Abr or Bst (binary search trees)
 > 
 >     Really similar to the Binary but they the info inside each node is based on the position on the tree, 
