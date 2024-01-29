@@ -30,9 +30,9 @@
 > - a,b > 1
 > - T(n) = { Theta 1                    if n = 0
 > -            { a*T(n/b) + O(n^k)   if n > 0
->>     if a < b^k -> T(n) = Theta n^k
->>     if a = b^k -> T(n) = Theta n^k log(k)
->>     if a > b^k -> T(n) = Theta n^logb(a) 
+>>     if a < b^k -> T(n) = Theta n^k        | The first level has the most complexity
+>>     if a = b^k -> T(n) = Theta n^k log(k) | All level has the same complexity
+>>     if a > b^k -> T(n) = Theta n^logb(a)  | The last level has the most complexity
 
 ## Selection sort
 >  [!NOTE]
