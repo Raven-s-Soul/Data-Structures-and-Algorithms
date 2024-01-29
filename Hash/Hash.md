@@ -45,3 +45,21 @@ The growth in case of key collide is gonna slow eventually into Theta n.
 
 ## Hash functions for differents data type are not included.
 
+## Solution to collisions
+> [!IMPORTANT]
+> - Using a list
+>   - Cost  
+>     - Extra space
+>     - Equal function can be slow
+> - Using open addressing
+>   - Pro
+>     - Don't use extra space
+>     - Alpha (n/m) <= 1 `m+1 insert generate overflow or telescopic growth`
+>     - Can be made without using pointers
+>>     How it works?
+>>     If a collision happen, look up for a free slot that can be found from the start or near the index.
+> A ***Scanning Function*** is used:
+>>     Take and index from 0 to m until you find one empthy, else overflow.
+
+> [!CAUTION]
+> ***Delete*** for open addressing is critical, that's the reason we prefer using this solution when we don't need to *delete*. 
