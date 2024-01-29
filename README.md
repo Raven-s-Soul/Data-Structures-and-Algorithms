@@ -26,6 +26,7 @@
 > - [Equal](Hash/Hash.md#equal-functions)
 > - [Hash Function](Hash/Hash.md#hash-functions)
 > - Hash functions for differents data type are not included.
+> - [Solution to collisions](Hash/Hash.md#solution-to-collisions)
 
 ## [Graphs](Graphs/Graphs.md)
 > [!NOTE]
