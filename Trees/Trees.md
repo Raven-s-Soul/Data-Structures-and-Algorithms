@@ -28,11 +28,19 @@ typedef struct nodo{
 typedef nodo * tree;
 ```
 
-## Searching or Abr
-
-    Really similar to the Binary but they the info inside each node is based on the position on the tree, 
-    on the left you have lower numbers and on right you have higher numbers.
-    In this way you can search a value using the binary search (log) much more faster then linear.
+## Searching
+> [!WARNING]
+> ### *Associative Array* (map or dictionary)
+>     They ask for a key that can be a int or string ecc and he gave back a value or answer
+>     The best is Only one key to only one answer [Linear]
+>
+>### Abr or Bst (binary search trees)
+> 
+>     Really similar to the Binary but they the info inside each node is based on the position on the tree, 
+>     on the left you have lower numbers and on right you have higher numbers.
+>     In this way you can search a value using the binary search (log) much more faster then linear.
+> #### General complexity = Theta log(n)
+>### [Tree Sort](../SortingAlgorithms/SortingAlgorithms.md#tree-sort)
 
 ## Arbitrary Grade
 
