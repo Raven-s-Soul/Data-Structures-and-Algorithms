@@ -39,7 +39,10 @@
 > [!CAUTION]
 > They are just hard to remember, litteraly is teory so ***Hold still!***
 > - [Properties](SortingAlgorithms/SortingAlgorithms.md#greedy)
+> - [Master Theorem](SortingAlgorithms/SortingAlgorithms.md#master-theorem)
 > - [Selection sort](SortingAlgorithms/SortingAlgorithms.md#selection-sort)
 > - [Insertion sort](SortingAlgorithms/SortingAlgorithms.md#insertion-sort)
+> - [Merge Sort](SortingAlgorithms/SortingAlgorithms.md#merge-sort)
+> - [Quick Sort](SortingAlgorithms/SortingAlgorithms.md#quick-sort)
 > - [Heap Sort](SortingAlgorithms/SortingAlgorithms.md#heap-sort)
 > - [Tree Sort](SortingAlgorithms/SortingAlgorithms.md#tree-sort)
