@@ -8,10 +8,10 @@
 > [!IMPORTANT]
 > ## Greedy
 > - This kind of approach look always for the best at the moment, even if isn't worth over time.
->     - Selection sort
+>     - [Selection sort](SortingAlgorithms.md#selection-sort)
 > ## Iterative
 > - The solution of a simple case can help doing a hard one. 
->     - Insertion sort
+>     - [Insertion sort](SortingAlgorithms.md#insertion-sort)
 > ## Properties
 > - *on site* `do not need extra space`
 > - *stable* `don't swap the order of object with the same value`
@@ -23,7 +23,7 @@
 >  [!NOTE]
 > Ex: Always change the value with the lowest avaible then go next.
 > ### Theta n^2  
->  -  *is Greedy*
+>  -  *[is Greedy](SortingAlgorithms.md#greedy)*
 >  -  *is on site*
 >  -  *is stable*
 
@@ -31,7 +31,7 @@
 >  [!NOTE]
 > Ex: Slowly try to make order in just a part and with time add the other parts to the one is already ordered.
 > ### Best case Theta n and others Theta n^2  
->  -  *is Iterative*
+>  -  *[is Iterative](SortingAlgorithms.md#greedy)*
 >  -  *is on site*
 >  -  *is stable*
 
@@ -47,10 +47,10 @@ for( i = h.A.length-1; i > 1 ; i--) {
 }
 ```
 >  [!NOTE]
-> ### Theta n*log(n)  
+> ### Theta n*log(n)
+>  -  *[is Iterative](SortingAlgorithms.md#greedy)*
 >  -  *is not stable*
 >  -  *is on site*
->
 
 ## [Tree](../Trees/Trees.md#searching) Sort
 ```c
