@@ -8,7 +8,7 @@
 
 > [!NOTE]
 > 
->      Hash tables make and associative array, but insert delete and rearch is not made by comparison.
+>      Hash tables make and associative array, but insert delete and search is not made by comparison.
 >      Worst case Theta n, and in the average case is Theta 1.
 > **Things to keep in mind:**
 > - Key type
