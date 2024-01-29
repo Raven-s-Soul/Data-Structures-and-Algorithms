@@ -32,4 +32,4 @@
 
 ## [Sorting Algorithms](SortingAlgorithms/SortingAlgorithms.md)
 > [!CAUTION]
-> They are hard to remember
+> They are just hard to remember, litteraly is teory so ***Hold still!***
