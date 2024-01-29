@@ -1,4 +1,8 @@
 # Sorting Algorithms
+> [!TIP]
+> ### Don't trust too much of these code snippets
+> If the sorting code is not accurate feel free to add or change or remove, are just to example of their work.
+
 
 ## [Heap](../Trees/Trees.md#priority-queue-and-heap) Sort
 ```c
@@ -14,8 +18,21 @@ for( i = h.A.length-1; i > 1 ; i--) {
 >  [!NOTE]
 > ### Theta n*log(n)  
 >  -  *is not stable*
-> 
 >  -  *is on site*
 >
 
 ## [Tree](../Trees/Trees.md#searching) Sort
+```c
+TREE_SORT(A){
+  t.root = NULL;
+  for (int i = 1; a < A.length-1; a++){
+    INSERISCI(t,A[i]);
+  }
+  TREE_TO_ARRAY(A,t,0);
+}
+```
+>  [!NOTE]
+>  - Theta n^2 (not balanced)
+>  - Big-O(n log n) (balanced)
+>  - [Wiki](https://en.wikipedia.org/wiki/Tree_sort)
+>  - *is not on site*
