@@ -18,17 +18,18 @@
 >>      A simple graph has no loop, and is called acyclic if has no cycles.
 >
 
-
-
-
 ## Gaph lists:
+> [!NOTE]
+> - Space used Big-O n + Big-O m `m can go up to n^2`
+>>       Keep scroll the list until is NULL the pointer. 
+> - Insert and delete are painfull and not efficent
 
 ## Gaph matrix:
 > [!NOTE]
 > - Space used Theta n^2
 > - Fast
->>       Can tell you easly if there is an arch from node to node
->
+>>       Can tell you easly if there is an arch from node to node.
+> - Insertion can be not efficent
 
 ## Gaph objects:
 
