@@ -14,7 +14,7 @@
 > [!IMPORTANT]
 >  Focus, they look the same but they aren't.  
 > - [Binary](Trees/Trees.md#binary)
-> - [Searching](Trees/Trees.md#searching-or-abr)
+> - [Searching](Trees/Trees.md#searching)
 > - [Arbitrary Grade](Trees/Trees.md#arbitrary-grade)
 > - [Black&Red](Trees/Trees.md#blackred)
 > - [Priority Queue and Heap](Trees/Trees.md#priority-queue-and-heap)
