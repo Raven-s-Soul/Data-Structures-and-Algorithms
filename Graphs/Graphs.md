@@ -1,5 +1,26 @@
 # Graphs
 
+> [!TIP]
+>
+> ### Directed: `Oriented`
+>    - Binary relations
+>
+> ### Indirect:
+> Where there is no orientation and connections are just bi-directional
+> 
+> ### Path:
+> Is a sequence of nodes that leads from one to another across arcs.
+>    - Simple `if all nodes are differents`
+>    - Lenght `is the sum of the arcs`
+>    - Cycle `where first and last node are the same`
+>       - Simple `if last and first node is the only one that is the same`
+>       - Loop `if only one node and one arch pointing to itself`
+>>      A simple graph has no loop, and is called acyclic if has no cycles.
+>
+
+
+
+
 ## Gaph lists:
 
 ## Gaph matrix:
