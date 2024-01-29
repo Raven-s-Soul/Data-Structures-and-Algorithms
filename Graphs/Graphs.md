@@ -32,6 +32,10 @@
 > - Insertion can be not efficent
 
 ## Gaph objects:
+> [!IMPORTANT]
+> Nodes and arcs are stored in doubly linked lists
+> - Every node has a list of arcs linked to him
+> - Every arc has a connection from and to
 
 ### Graphs by objects (Struct) - Example form the tests
 
