@@ -17,6 +17,13 @@
 >  **If 2 or more keys collide into the same index, there is a soluzion but is gonna slow into Theta n**
 > - Using a list
 >   
+>  **Hashmap = Hash key (Theta 1) + Equal (Theta ?) ->**
+
+## Equal Functions
+Chech that you found the right element in the list if keys collide.
+- *Theta n*  `need to be fast, but depenods on the key from Theta 1 to n`
+  
+The growth in case of key collide is gonna slow eventually into Theta n.
 
 ## Hash Functions
 > [!TIP]
@@ -30,3 +37,5 @@
 >>     if n/m = 1 every slot is used only 1 element
 >>     if n/m > 1 more elements then the slots
 >>     if n/m < 1 less elemntts then the slots
+>>     n/m = Alpha can be used to describe the speed
+> When Alpha is getting too close to a specific value we double the m, but doing so can keep Theta 1 by splitting the cost with the past insertions (Theta 1) over time, like on the [complexity amortized](../Lists/Lists.md#crescita-telescopica--complessità-ammortizzata).
