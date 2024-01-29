@@ -9,14 +9,12 @@
 > ## Greedy
 > - This kind of approach look always for the best at the moment, even if isn't worth over time.
 >     - Selection sort
-> ## Iteratives
+> ## Iterative
 > - The solution of a simple case can help doing a hard one. 
 >     - Insertion sort
 > ## Property
 > - *on site* `do not need extra space`
 > - *stable* `don't swap the order of object with the same value`
-
-
 
 ## Selection sort
 >  [!NOTE]
@@ -26,6 +24,13 @@
 >  -  *is on site*
 >  -  *is stable*
 
+## Insertion sort
+>  [!NOTE]
+> Ex: Slowly try to make order in just a part and with time add the other parts to the one is already ordered.
+> ### Best case Theta n and others Theta n^2  
+>  -  *is Iterative*
+>  -  *is on site*
+>  -  *is stable*
 
 ## [Heap](../Trees/Trees.md#priority-queue-and-heap) Sort
 ```c
