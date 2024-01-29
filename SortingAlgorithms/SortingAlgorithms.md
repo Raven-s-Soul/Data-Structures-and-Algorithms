@@ -1,7 +1,29 @@
 # Sorting Algorithms
 > [!TIP]
-> ### Don't trust too much of these code snippets
+> ## Disclaimer
+> ***Don't trust too much of these code snippets***
+> 
 > If the sorting code is not accurate feel free to add or change or remove, are just to example of their work.
+
+> [!IMPORTANT]
+> ## Greedy
+> -  This kind of approach look always for the best at the moment, even if isn't worth over time.
+>     -  Selection sort
+> ## Iteratives
+>
+> ## Property
+> - *on site* `do not need extra space`
+> - *stable* `don't swap the order of object with the same value`
+
+
+
+## Selection sort
+>  [!NOTE]
+> Ex: Always change the value with the lowest avaible then go next.
+> ### Theta n^2  
+>  -  *is Greedy*
+>  -  *is on site*
+>  -  *is stable*
 
 
 ## [Heap](../Trees/Trees.md#priority-queue-and-heap) Sort
