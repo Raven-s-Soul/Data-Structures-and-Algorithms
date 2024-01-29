@@ -15,6 +15,9 @@
 > ## Property
 > - *on site* `do not need extra space`
 > - *stable* `don't swap the order of object with the same value`
+> - *adaptive* `faster with a part already ordered`
+> - *online* `can be used when the numbers come one at a time`
+> - *effective on small instances*
 
 ## Selection sort
 >  [!NOTE]
