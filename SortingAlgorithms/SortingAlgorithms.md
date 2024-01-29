@@ -20,7 +20,7 @@
 > - *effective on small instances*
 >
 > ## Recurrence formula
-> 
+> Equations or inequalities that describe a function and its value on smaller inputs.
 > ## Divide Et Impera
 > - Cut the problem in smaller and simpler ones
 > - [Iterative](SortingAlgorithms.md#greedy)
