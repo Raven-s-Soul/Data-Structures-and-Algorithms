@@ -1,4 +1,7 @@
 # Hash
+
+***Hashing is the solution to ton of things... not all.***
+
 ## Hash Table
 > [!WARNING]
 > ### [Associative arrays](../Trees/Trees.md#associative-array-map-or-dictionary)
@@ -39,3 +42,6 @@ The growth in case of key collide is gonna slow eventually into Theta n.
 >>     if n/m < 1 less elemntts then the slots
 >>     n/m = Alpha can be used to describe the speed
 > When Alpha is getting too close to a specific value we double the m, but doing so can keep Theta 1 by splitting the cost with the past insertions (Theta 1) over time, like on the [complexity amortized](../Lists/Lists.md#crescita-telescopica--complessità-ammortizzata).
+
+## Hash functions for differents data type are not included.
+
