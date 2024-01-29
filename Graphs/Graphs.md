@@ -24,6 +24,11 @@
 ## Gaph lists:
 
 ## Gaph matrix:
+> [!NOTE]
+> - Space used Theta n^2
+> - Fast
+>>       Can tell you easly if there is an arch from node to node
+>
 
 ## Gaph objects:
 
