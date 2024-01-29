@@ -20,12 +20,16 @@
 
 ## Gaph lists:
 > [!NOTE]
+> Is an array and each element is a double linked list that has the index to the other nodes. 
+> 
 > - Space used Big-O n + Big-O m `m = number of arcs, can go up to n^2`
 >>       Keep scroll the list until is NULL the pointer. 
 > - Insert and delete are painfull and not efficent
 
 ## Gaph matrix:
 > [!NOTE]
+> Is a matrix n*n `n = numer of nodes` and if (i,k) equal 1 there is an arch from i to k. 
+> 
 > - Space used Theta n^2
 > - Fast
 >>       Can tell you easly if there is an arch from node to node.
