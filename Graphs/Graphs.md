@@ -16,11 +16,11 @@
 >       - Simple `if last and first node is the only one that is the same`
 >       - Loop `if only one node and one arch pointing to itself`
 >>      A simple graph has no loop, and is called acyclic if has no cycles.
->
+>  
 
 ## Gaph lists:
 > [!NOTE]
-> - Space used Big-O n + Big-O m `m can go up to n^2`
+> - Space used Big-O n + Big-O m `m = number of arcs, can go up to n^2`
 >>       Keep scroll the list until is NULL the pointer. 
 > - Insert and delete are painfull and not efficent
 
