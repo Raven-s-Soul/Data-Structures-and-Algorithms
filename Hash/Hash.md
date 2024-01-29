@@ -1,5 +1,5 @@
 # Hash
-## Hashtable
+## Hash Table
 > [!WARNING]
 > ### [Associative arrays](../Trees/Trees.md#associative-array-map-or-dictionary)
 
