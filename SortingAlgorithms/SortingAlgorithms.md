@@ -12,7 +12,7 @@
 > ## Iterative
 > - The solution of a simple case can help doing a hard one. 
 >     - Insertion sort
-> ## Property
+> ## Properties
 > - *on site* `do not need extra space`
 > - *stable* `don't swap the order of object with the same value`
 > - *adaptive* `faster with a part already ordered`
