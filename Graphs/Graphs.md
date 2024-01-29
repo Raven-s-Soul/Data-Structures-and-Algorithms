@@ -40,6 +40,14 @@
 > When we work with objects we usualy **mark** visited nodes to not cycle the path, we use color.
 >
 > There are differents way to see the graphs like bfs and dfs.
+>
+> - The node is ***reachable*** if there is a path to it.
+>
+> - If every pair of nodes are connected the graph is ***strongly connected***.
+>
+> - **Component** is a bunch of nodes that are all connected, may be more then one component in a single graph.
+>
+> - Each component can be a ***strongly connected component***.
 
 ### Graphs by objects (Struct) - Example form the tests
 
