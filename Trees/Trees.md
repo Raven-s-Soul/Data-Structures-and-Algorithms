@@ -73,6 +73,8 @@ Priority Queue: the user can insert the element with his priority and when neede
 >    for the min-heap is the opposite.
 >
 >    The function **Max-heapify** make node ***i*** the highest priority of the sub tree it cost at max Theta log(n).
+>
+>    The function **Build_Max_Heap** make a heap from an array it cost up to Big-O n*log(n).
     
 ### [Heap Sort](../SortingAlgorithms/SortingAlgorithms.md#heap-sort)
 
