@@ -18,6 +18,14 @@
 > - *adaptive* `faster with a part already ordered`
 > - *online* `can be used when the numbers come one at a time`
 > - *effective on small instances*
+>
+> ## Recurrence formula
+> 
+> ## Divide Et Impera
+> - Cut the problem in smaller and simpler ones
+> - [Iterative](SortingAlgorithms.md#greedy)
+>   -  [Merge Sort]()
+>   -  [Quick Sort]()
 
 ## Selection sort
 >  [!NOTE]
@@ -34,6 +42,20 @@
 >  -  *[is Iterative](SortingAlgorithms.md#greedy)*
 >  -  *is on site*
 >  -  *is stable*
+
+## Merge Sort
+>  [!NOTE]
+> Ex: Split the array in smaller ones till they are just 2 numbers then order and merge with others ordered pairs.
+> ###  Theta n*log(n)
+>  -  *[Divide Et Impera](SortingAlgorithms.md#divide-et-impera)*
+>  -  **
+
+## Quick Sort
+>  [!NOTE]
+> Ex: 
+> ###  
+>  -  *[Divide Et Impera](SortingAlgorithms.md#divide-et-impera)*
+>  -  **
 
 ## [Heap](../Trees/Trees.md#priority-queue-and-heap) Sort
 ```c
