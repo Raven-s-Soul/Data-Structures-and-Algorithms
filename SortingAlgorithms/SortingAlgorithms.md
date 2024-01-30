@@ -63,7 +63,8 @@
 > Ex: Split the array in two where every element of 1 array is <= elements of the second, then order and combine.
 >>     Array 1 has from p to q-1, and Array 2 has from q+1 to r
 >>     if p = r is already ordered, if p > r should be an error.
-> You need a value q that is got for *PARTITION* the 2 arrays. 
+> You need for the split a value q that is got for *PARTITION* of the array using the lower and highest value.
+>>     When you get q you can Quick_Sort(Array,p,q-1) and Quick_Sort(Array,q+1,r).
 > ###  Theta n*log(n) or Theta n^2
 >  -  *[Divide Et Impera](SortingAlgorithms.md#divide-et-impera)*
 >  -  *is on site*
