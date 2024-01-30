@@ -65,7 +65,7 @@
 >>     if p = r is already ordered, if p > r should be an error.
 > You need for the split a value q that is got for *PARTITION* of the array using the lower and highest value.
 >
-> How *PARTITION* work?
+> How *PARTITION* work? **Theta n**
 >   - Get the element with max index = Arrat[r]
 >   - Count how many are <= of that element, the sum is q
 >       - Swap Array[counter] with Array[q] and q++ 
