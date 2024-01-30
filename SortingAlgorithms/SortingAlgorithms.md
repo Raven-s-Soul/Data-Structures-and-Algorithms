@@ -74,6 +74,7 @@
 > ###  Theta n*log(n) or Theta n^2
 >  -  *[Divide Et Impera](SortingAlgorithms.md#divide-et-impera)*
 >  -  *is on site*
+>  -  *is not stable*
 
 ## [Heap](../Trees/Trees.md#priority-queue-and-heap) Sort
 ```c
