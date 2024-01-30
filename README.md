@@ -46,3 +46,4 @@
 > - [Quick Sort](SortingAlgorithms/SortingAlgorithms.md#quick-sort)
 > - [Heap Sort](SortingAlgorithms/SortingAlgorithms.md#heap-sort)
 > - [Tree Sort](SortingAlgorithms/SortingAlgorithms.md#tree-sort)
+> - [Linear sorts](SortingAlgorithms/SortingAlgorithms.md#counting-sort)
