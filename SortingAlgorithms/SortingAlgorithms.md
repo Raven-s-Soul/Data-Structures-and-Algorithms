@@ -108,3 +108,25 @@ TREE_SORT(A){
 >  - Big-O(n log n) (balanced)
 >  - [Wiki](https://en.wikipedia.org/wiki/Tree_sort)
 >  - *is not on site*
+
+##  Counting Sort
+>  [!NOTE]
+>  - There are K counters for each avaible value ***i***
+>  - for every ***i*** count how many input are the same as ***i***
+>  - how many input are less then ***i***
+>  - then place the ***i*** elements in the right spot on the array.
+>
+>  **All operation are Theta n**
+>  - *is stable*
+>  - *is not on site*
+>  - *is not online*
+>  - ***Theta n+k***
+
+##  Bucket Sort
+>  [!NOTE]
+>  - **
+
+##  Radix Sort
+>  [!NOTE]
+>  - **
+
