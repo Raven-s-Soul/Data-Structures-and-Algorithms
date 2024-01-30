@@ -64,6 +64,12 @@
 >>     Array 1 has from p to q-1, and Array 2 has from q+1 to r
 >>     if p = r is already ordered, if p > r should be an error.
 > You need for the split a value q that is got for *PARTITION* of the array using the lower and highest value.
+>
+> How *PARTITION* work?
+>   - Get the element with max index = Arrat[r]
+>   - Count how many are <= of that element, the sum is q
+>       - Swap Array[counter] with Array[q] and q++ 
+>   - End loop, swap Array[q] with Array[r] and return q.
 >>     When you get q you can Quick_Sort(Array,p,q-1) and Quick_Sort(Array,q+1,r).
 > ###  Theta n*log(n) or Theta n^2
 >  -  *[Divide Et Impera](SortingAlgorithms.md#divide-et-impera)*
