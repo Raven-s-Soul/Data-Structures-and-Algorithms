@@ -124,7 +124,15 @@ TREE_SORT(A){
 
 ##  Bucket Sort
 >  [!NOTE]
->  - **
+>  - Make a list for evert ***i*** <= k
+>  - Reed the Array and insert the value on the list that corresponds to it's value
+>  - Then empthy the list filling the array
+> 
+>  **All operation are Theta n**
+>  - *is stable*
+>  - *is not on site*
+>  - *is not online*
+>  - ***Theta n+k***
 
 ##  Radix Sort
 >  [!NOTE]
