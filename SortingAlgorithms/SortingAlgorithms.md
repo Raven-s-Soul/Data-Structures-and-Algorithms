@@ -136,5 +136,12 @@ TREE_SORT(A){
 
 ##  Radix Sort
 >  [!NOTE]
->  - **
-
+>  We want to order values that we suppose have a sequence of ***d*** digits
+>
+>     When we want to sort based on multiple criteria we must first consider
+>     the least significant criteria and then the most significant criteria
+>  - Sort for each ***d*** sort.
+> 
+>  **All operation are Theta n**
+>  - *is stable*
+>  - ***Theta d(n+k)*** `k is max value in the digit`
