@@ -28,7 +28,7 @@
 >   -  [Merge Sort](SortingAlgorithms.md#merge-sort)
 >   -  [Quick Sort](SortingAlgorithms.md#quick-sort)
 > ## Master theorem
-> - a,b > 1
+> - a,b > 1 where a number of sub-substance ans b is the element in the sub.
 > - T(n) = { Theta 1                    if n = 0
 > -            { a*T(n/b) + O(n^k)   if n > 0
 >>     if a < b^k -> T(n) = Theta n^k        | The first level has the most complexity
