@@ -12,6 +12,7 @@
 > ## Iterative
 > - The solution of a simple case can help doing a hard one. 
 >     - [Insertion sort](SortingAlgorithms.md#insertion-sort)
+>     - [Heap sort](SortingAlgorithms.md#heap-sort)
 > ## Properties
 > - *on site* `do not need extra space`
 > - *stable* `don't swap the order of object with the same value`
