@@ -60,10 +60,13 @@
 
 ## Quick Sort
 >  [!NOTE]
-> Ex: 
-> ###  
+> Ex: Split the array in two where every element of 1 array is <= elements of the second, then order and combine.
+>>     Array 1 has from p to q-1, and Array 2 has from q+1 to r
+>>     if p = r is already ordered, if p > r should be an error.
+> You need a value q that is got for *PARTITION* the 2 arrays. 
+> ###  Theta n*log(n) or Theta n^2
 >  -  *[Divide Et Impera](SortingAlgorithms.md#divide-et-impera)*
->  -  **
+>  -  *is on site*
 
 ## [Heap](../Trees/Trees.md#priority-queue-and-heap) Sort
 ```c
