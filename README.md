@@ -51,3 +51,6 @@
 ## Problems Complexity
 >
 > ***SOON!***
+
+## We ***wish you luck*** for the exam! - **By every [contributors](Contributors/README.md#contributors)**
+
