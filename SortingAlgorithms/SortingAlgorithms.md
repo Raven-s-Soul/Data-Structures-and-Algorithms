@@ -99,6 +99,7 @@ for( i = h.A.length-1; i > 1 ; i--) {
 >      -  you swap the values inside of index 0 to the iterator
 >      -  each time and use *heapify* for be sure to have the one with the priority on top.
 >      -  then you decrease the iterator since you already did the swap on that value.
+>
 > 
 > ### Theta n*log(n)
 >  -  *[is Iterative](SortingAlgorithms.md#greedy)*
@@ -116,6 +117,13 @@ TREE_SORT(A){
 }
 ```
 >  [!NOTE]
+>  How it works:
+>  - You make a tree.
+>  - Inside the loop that iter the size of the array to sort:
+>      -  Insert the value of the array in the binary tree.
+>      -  `keeping always left smallest and right bigger values` 
+>  -  You read from the order you prefer the tree and insert in the Array
+> ### 
 >  - Theta n^2 (not balanced)
 >  - Big-O(n log n) (balanced)
 >  - [Wiki](https://en.wikipedia.org/wiki/Tree_sort)
