@@ -49,8 +49,12 @@
 > - [Linear sorts](SortingAlgorithms/SortingAlgorithms.md#counting-sort)
 
 ## [Problems Complexity](ProblemsComplexity/README.md#problems-complexity)
-> 
 > Is just ***"Trivial Shit"***.
 
 ## We ***wish you luck*** for the exam! - **By every [contributors](Contributors/README.md#contributors)**
+> Do you wanna do some improvements, "***fork***" the repository then do your edits and commit and push, then pull request.
+> 
+> Remember to add yourself at the end of contributors file.
+> 
+> If needed feel free to email or contact.
 
