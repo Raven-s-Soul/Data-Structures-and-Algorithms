@@ -58,10 +58,15 @@ typedef nodo * tree;
 
 > [!CAUTION]
 > #### Height, Insert, delete = Theta log(n)
-> #### Rotate = Theta 1;
->>
 >>     Attention when insert and delete nodes may break the rules that keep a the tree balanced.
 >>     In case of Break the fix function may take up to Theta log(n).
+> #### Rotate = Theta 1;
+>
+>>     Rotate function actualy reduce the longhest path and increase the shortest by 1.
+>>     And doing differents rotations you can balance the tree, but be aware that
+>>     the other node are kept in order, just node X and Y change
+>>     from parent to son -> son to parent. Always left lower values and right higher and parent in the middle! 
+>
 
 ## Priority Queue and Heap 
 
