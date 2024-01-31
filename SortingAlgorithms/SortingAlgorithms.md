@@ -91,6 +91,15 @@ for( i = h.A.length-1; i > 1 ; i--) {
 }
 ```
 >  [!NOTE]
+>  Remember Heap and priority queues!
+>
+>  How it works:
+>  - You make from an array a tree, and take the array size.
+>  - Inside the loop:
+>      -  you swap the values inside of index 0 to the iterator
+>      -  each time and use *heapify* for be sure to have the one with the priority on top.
+>      -  then you decrease the iterator since you already did the swap on that value.
+> 
 > ### Theta n*log(n)
 >  -  *[is Iterative](SortingAlgorithms.md#greedy)*
 >  -  *is not stable*
