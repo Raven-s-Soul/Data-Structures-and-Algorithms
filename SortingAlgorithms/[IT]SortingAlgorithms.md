@@ -1,83 +1,83 @@
 # Algoritmi di ordinamento
 > [!TIP]
 > ## Disclaimer
-> ***Don't trust too much of these code snippets***
+> ***Non fidarti troppo di questi pezzi di codice, potrebbero essere presenti degli errori***
 > 
-> If the sorting code is not accurate feel free to add or change or remove, are just to example of their work.
+> Se gli algoritmi di ordinamento non sono corretti sentiti libero di modificarli, sono solo esempi di funzionamento.
 
 > [!IMPORTANT]
-> ## Greedy
-> - This kind of approach look always for the best at the moment, even if isn't worth over time.
+> ## Algoritmi greedy(golosi)
+> - Questo tipo di approccio cerca sempre il caso migliore al momento anche se alla lunga è il peggiore.
 >     - [Selection sort](SortingAlgorithms.md#selection-sort)
-> ## Iterative
-> - The solution of a simple case can help doing a hard one. 
+> ## Algoritmi iterativi
+> - Algoritmi semplici che riescono a risolvere problemi più grandi. 
 >     - [Insertion sort](SortingAlgorithms.md#insertion-sort)
 >     - [Heap sort](SortingAlgorithms.md#heap-sort)
-> ## Properties
-> - *on site* `do not need extra space`
-> - *stable* `don't swap the order of object with the same value`
-> - *adaptive* `faster with a part already ordered`
-> - *online* `can be used when the numbers come one at a time`
-> - *effective on small instances*
+> ## Proprietà
+> - *in loco* `non hanno bisogno di spazio extra`
+> - *stabile* `non scambia l'ordine di valori uguali`
+> - *adattivo* `più veloce se una parte è già ordinata`
+> - *online* `può essere usato se i numeri vengono inseriti uno alla volta`
+> - *efficiente su piccole istanze*
 >
-> ## Recurrence formula
-> Equations or inequalities that describe a function and its value on smaller inputs.
+> ## Formula di ricorrenza
+> Equazioni o disequazioni che descrivono il suo valore asintotico.
 > ## Divide Et Impera
-> - Cut the problem in smaller and simpler ones
+> - Dividi il problema in più problemi più piccoli e semplici.
 > - [Iterative](SortingAlgorithms.md#greedy)
 >   -  [Merge Sort](SortingAlgorithms.md#merge-sort)
 >   -  [Quick Sort](SortingAlgorithms.md#quick-sort)
 > ## Master theorem
 > - a,b > 1 
-> - a number of sub-substance 
-> - b number of the element in the sub.
+> - a numbero di sotto-ricorsioni 
+> - b numbero di elementi nelle sotto-ricorsioni.
 > - T(n) = { Theta 1                    if n = 0
 > -            { a*T(n/b) + O(n^k)   if n > 0
->>     if a < b^k -> T(n) = Theta n^k        | The first level has the most complexity
->>     if a = b^k -> T(n) = Theta n^k log(k) | All level has the same complexity
->>     if a > b^k -> T(n) = Theta n^logb(a)  | The last level has the most complexity
+>>     se a < b^k -> T(n) = Theta n^k        | Il primo livello ha la complessità più alta
+>>     se a = b^k -> T(n) = Theta n^k log(k) | Tutti i livelli hanno la stessa complessità
+>>     se a > b^k -> T(n) = Theta n^logb(a)  | L'ultimo livello ha la complessità più alta
 
 ## Selection sort
 >  [!NOTE]
-> Ex: Always change the value with the lowest avaible then go next.
+> Esempio: Cambia sempre il valore con il minimo disponibile poi vai avanti.
 > ### Theta n^2  
->  -  *[is Greedy](SortingAlgorithms.md#greedy)*
->  -  *is on site*
->  -  *is stable*
+>  -  *[Greedy](SortingAlgorithms.md#greedy)*
+>  -  *in loco*
+>  -  *stabile*
 
 ## Insertion sort
 >  [!NOTE]
-> Ex: Slowly try to make order in just a part and with time add the other parts to the one is already ordered.
+> Esempio: Lentamente prova a fare ordine in una parte e con il tempo aggiungi le altre parti a quella già ordinata.
 > ### Best case Theta n and others Theta n^2  
->  -  *[is Iterative](SortingAlgorithms.md#greedy)*
->  -  *is on site*
->  -  *is stable*
+>  -  *[Iterativo](SortingAlgorithms.md#greedy)*
+>  -  *in loco*
+>  -  *stabile*
 
 ## Merge Sort
 >  [!NOTE]
-> Ex: Split the array in smaller ones till they are just 2 numbers then order and merge with others ordered pairs.
+> Esempio: Dividi l'array in parti più piccole finché sono solo due numeri poi ordina e unisci con le altre coppie ordinate.
 > ###  Theta n*log(n)
 >  -  *[Divide Et Impera](SortingAlgorithms.md#divide-et-impera)*
->  -  *is not on site*
->  -  *is stable*
+>  -  *non in loco*
+>  -  *stabile*
 
 ## Quick Sort
 >  [!NOTE]
-> Ex: Split the array in two where every element of 1 array is <= elements of the second, then order and combine.
->>     Array 1 has from p to q-1, and Array 2 has from q+1 to r
->>     if p = r is already ordered, if p > r should be an error.
-> You need for the split a value q that is got for *PARTITION* of the array using the lower and highest value.
+> Esempio: Dividi l'array in due dove ogni elemento del primo array è <= degli elementi del secondo, poi ordina e combina.
+>>     L'array 1 ha elementi da p a q-1, e l'array 2 ha elementi da q+1 a r.
+>>     Se p = r l'array è già ordinato, se p > r dovrebbe esserci un errore.
+> Per dividere serve un valore q necessario a eseguire una *PARTITION* dell'array usando i valori maggiore e minore.
 >
-> How *PARTITION* work? **Theta n**
->   - Get the element with max index = Arrat[r]
->   - Count how many are <= of that element, the sum is q
->       - Swap Array[counter] with Array[q] and q++ 
->   - End loop, swap Array[q] with Array[r] and return q.
->>     When you get q you can Quick_Sort(Array,p,q-1) and Quick_Sort(Array,q+1,r).
-> ###  Theta n*log(n) or Theta n^2
+> Come funziona la *PARTITION*? **Theta n**
+>   - Prendi l'elemento con *indice massimo = Array[r]*
+>   - Conta quanti sono <= *a* quell'elemento, la somma sarà *q*
+>   - Scambia *Array[counter]* con *Array[q]* e esegui *q++* 
+>   - Ad ogni iterazione del ciclo, scambia *Array[q]* con *Array[r]* e *ritorna q*.
+>>      Quando ottieni q puoi Quick_Sort(Array,p,q-1) e Quick_Sort(Array,q+1,r).
+> ###  Theta n*log(n) o Theta n^2
 >  -  *[Divide Et Impera](SortingAlgorithms.md#divide-et-impera)*
->  -  *is on site*
->  -  *is not stable*
+>  -  *In loco*
+>  -  *non stabile*
 
 ## [Heap](../Trees/Trees.md#priority-queue-and-heap) Sort
 ```c
@@ -91,20 +91,20 @@ for( i = h.A.length-1; i > 1 ; i--) {
 }
 ```
 >  [!NOTE]
->  Remember Heap and priority queues!
+>  Rircoda Heap e le code di priorità!
 >
->  How it works:
->  - You make from an array a tree, and take the array size.
->  - Inside the loop:
->      -  you swap the values inside of index 0 to the iterator
->      -  each time and use *heapify* for be sure to have the one with the priority on top.
->      -  then you decrease the iterator since you already did the swap on that value.
+>  Come funziona:
+>  - Da un'array crei un albero, poi prendi la dimensione dell'array.
+>  - Nel ciclo:
+>      -  scambi i valori di *array[0]* e *array[contatore]* ogni volta
+>      -  usa la funzione *heapify* per essere sicuro di avere quello con la massima priorità.
+>      -  deincrementi il contatore siccome hai già eseguito lo scambio su quel valore.
 >
 > 
 > ### Theta n*log(n)
->  -  *[is Iterative](SortingAlgorithms.md#greedy)*
->  -  *is not stable*
->  -  *is on site*
+>  -  *[Iterativo](SortingAlgorithms.md#greedy)*
+>  -  *non stabile*
+>  -  *in loco*
 
 ## [Tree](../Trees/Trees.md#searching) Sort
 ```c
@@ -117,51 +117,51 @@ TREE_SORT(A){
 }
 ```
 >  [!NOTE]
->  How it works:
->  - You make a tree.
->  - Inside the loop that iter the size of the array to sort:
->      -  Insert the value of the array in the binary tree.
->      -  `keeping always left smallest and right bigger values` 
->  -  You read from the order you prefer the tree and insert in the Array
+>  Come funziona:
+>  - Crei un albero.
+>  - Nel ciclo che itera la dimensione dell'array da ordinare:
+>      -  Inserisci il valore dell'array nell'albero binario.
+>      -  `tenendo sempre a sinistra i valori più piccoli e a destra i valori più grandi` 
+>  -  Leggi nell'ordine che preferisci l'albero e inseriscilo nell'array
 > ### 
->  - Theta n^2 (not balanced)
->  - Big-O(n log n) (balanced)
->  - [Wiki](https://en.wikipedia.org/wiki/Tree_sort)
->  - *is not on site*
+>  - Theta n^2 (non bilanciato)
+>  - O-grande(n log n) (balanced)
+>  - *non in loco*
+>  - [Wikipedia](https://en.wikipedia.org/wiki/Tree_sort)
 
 ##  Counting Sort
 >  [!NOTE]
->  - There are K counters for each avaible value ***i***
->  - for every ***i*** count how many input are the same as ***i***
->  - how many input are less then ***i***
->  - then place the ***i*** elements in the right spot on the array.
+>  - Ci sono *K* contatori per ogni valore possibile ***i***
+>  - per ogni ***i*** conta quanti sono i valori uguali a ***i***
+>  - conta quanti sono minori di ***i***
+>  - dopo inserisci gli elementi ***i*** in ordine nell'array.
 >
->  **All operation are Theta n**
->  - *is stable*
->  - *is not on site*
->  - *is not online*
+>  **Tutte le operazioni hanno complessità Theta n**
+>  - *stabile*
+>  - *non in loco*
+>  - *non online*
 >  - ***Theta n+k***
 
 ##  Bucket Sort
 >  [!NOTE]
->  - Make a list for evert ***i*** <= k
->  - Reed the Array and insert the value on the list that corresponds to it's value
->  - Then empthy the list filling the array
+>  - Crea una lista per ogni ***i*** <= *k*
+>  - Leggi l'array e inserisci il valore sulla lista in posizione corrispondente al suo valore
+>  - Svuota la lista mentre riempi nuovamente l'array
 > 
->  **All operation are Theta n**
->  - *is stable*
->  - *is not on site*
->  - *is not online*
+>  **Tutte le operazioni sono di complessità Theta n**
+>  - *stabile*
+>  - *non in loco*
+>  - *non online*
 >  - ***Theta n+k***
 
 ##  Radix Sort
 >  [!NOTE]
->  We want to order values that we suppose have a sequence of ***d*** digits
+>  Vogliamo ordinare valori che sappiamo a priori avere ***d*** caratteri.
 >
->     When we want to sort based on multiple criteria we must first consider
->     the least significant criteria and then the most significant criteria
->  - Sort for each ***d*** sort.
+>     Quando vogliamo ordinare valori usando più criteri dobbiamo prima considerare
+>     il criterio più significante poi il meno significante.
+>  - Ordina per ogni ***d***.
 > 
 >  **All operation are Theta n**
->  - *is stable*
->  - ***Theta d(n+k)*** `k is max value in the digit`
+>  - *stabile*
+>  - ***Theta d(n+k)*** `k è il valore massimo nel carattere`
