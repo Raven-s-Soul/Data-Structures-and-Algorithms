@@ -50,7 +50,7 @@
 ## [Problems Complexity](ProblemsComplexity/ProblemsComplexity.md#problems-complexity)
 > It's just ***"Trivial Shit"***.
 
-## We ***wish you luck*** for the exam! - **By every [contributors](Contributors/README.md#contributors)**
+## We ***wish you luck*** for the exam! - **By every [contributors](Contributors/Contributors.md#contributors)**
 > If you wanna do some improvements, "***fork***" the repository, do your edits, commit and push and then pull request.
 > 
 > Remember to add yourself at the end of contributors file.
