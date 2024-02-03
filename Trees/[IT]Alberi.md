@@ -3,11 +3,11 @@
 Gli alberi sono come liste, ma hanno più di un puntatore ai nodi successivi.
 
 Riconosciamo in un albero varie parti:    
-    - La radice (la testa dell'albero)
-    - I nodi (come la radice, ma sono "radici" di altri "sottalberi")
-    - Le foglie (sono nodi, ma sono alla fine dell'albero)
+-  La radice (la testa dell'albero)
+-  I nodi (come la radice, ma sono "radici" di altri "sottalberi")
+-  Le foglie (sono nodi, ma sono alla fine dell'albero)
     
-    I nodi hanno gradi basati sulla loro posizione e altezza dalla radice,
+-  I nodi hanno gradi basati sulla loro posizione e altezza dalla radice,
     l'altezza della radice è ad altezza 0.
     
 ### Ci sono vari tipi di albero:
@@ -31,7 +31,7 @@ typedef nodo * tree;
 ```
 
 ## Ricerca negli alberi
-> [!ATTENCTION]
+> [!WARNING]
 > ### *Array Associativo* (map or dictionary)
 >     Danno una chiave (che può essere int, string ecc) e ritornano un valore o una risposta
 >     La cosa migliore è una chiave per ogni risposta [Lineare]
@@ -58,7 +58,7 @@ typedef nodo * tree;
 >>     Ogni percorso dalla radice alla sentinelkla ha K nodi neri, in cui il percorso è minimo (K-1) o massimo 2(K-1).
 >>     Ecco perché l'altezza è percorso-1.
 
-> [!ATTENCTION]
+> [!CAUTION]
 > #### Altezza, Inserimento, Rimozione = Theta log(n)
 >>     Attenzione, l'inserimento, rimozione di nodi potrebbe rompere le regole che tengono l'albero bilanciato.
 >>     In caso di rottura delle regole la funzione di riparazione potrebbe occupare fino a Theta log(n).
