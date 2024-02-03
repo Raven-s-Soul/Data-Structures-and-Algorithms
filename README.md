@@ -2,7 +2,7 @@
 
 ## [Lists and Time Complexity](Lists/Lists.md)
 > [!TIP]
-> Is the base needed, a strong understanding, like after IT-Fundamentals
+> Is the base needed, a strong understanding, like after IT-Fundamentals:
 > - [Random Access Machine](Lists/Lists.md#ram---random-access-machine)
 > - [Pointers](Lists/Lists.md#Pointers)
 > - [Struct/ADT](Lists/Lists.md#struct-or-adtabstract-data-type)
@@ -12,7 +12,7 @@
 
 ## [Trees](Trees/Trees.md)
 > [!IMPORTANT]
->  Focus, they look the same but they aren't.  
+>  Focus, they look the same but they aren't:  
 > - [Binary](Trees/Trees.md#binary)
 > - [Searching](Trees/Trees.md#searching)
 > - [Arbitrary Grade](Trees/Trees.md#arbitrary-grade)
@@ -21,11 +21,10 @@
 
 ## [Hash](Hash/Hash.md)
 > [!WARNING]
-> Is mostly teory, so at least you should understand what is it's and how it works.
+> It's mostly theory, so at least you should be able to understand what it is and how it works.
 > - [Hash Table](Hash/Hash.md#hash-table)
 > - [Equal](Hash/Hash.md#equal-functions)
-> - [Hash Function](Hash/Hash.md#hash-functions)
-> - Hash functions for differents data type are not included.
+> - [Hash Function](Hash/Hash.md#hash-functions) (Hash functions for differents data type are not included)
 > - [Solution to collisions](Hash/Hash.md#solution-to-collisions)
 
 ## [Graphs](Graphs/Graphs.md)
@@ -37,7 +36,7 @@
 
 ## [Sorting Algorithms](SortingAlgorithms/SortingAlgorithms.md)
 > [!CAUTION]
-> They are just hard to remember, litteraly is teory so ***Hold still!***
+> They are just hard to remember. It's literally theory so ***Hold still!***
 > - [Properties](SortingAlgorithms/SortingAlgorithms.md#greedy)
 > - [Master Theorem](SortingAlgorithms/SortingAlgorithms.md#master-theorem)
 > - [Selection sort](SortingAlgorithms/SortingAlgorithms.md#selection-sort)
@@ -49,12 +48,12 @@
 > - [Linear sorts](SortingAlgorithms/SortingAlgorithms.md#counting-sort)
 
 ## [Problems Complexity](ProblemsComplexity/README.md#problems-complexity)
-> Is just ***"Trivial Shit"***.
+> It's just ***"Trivial Shit"***.
 
 ## We ***wish you luck*** for the exam! - **By every [contributors](Contributors/README.md#contributors)**
-> Do you wanna do some improvements, "***fork***" the repository then do your edits and commit and push, then pull request.
+> If you wanna do some improvements, "***fork***" the repository, do your edits, commit and push and then pull request.
 > 
 > Remember to add yourself at the end of contributors file.
 > 
-> If needed feel free to email or contact.
+> If needed, feel free to email or contact.
 
