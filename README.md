@@ -47,7 +47,7 @@
 > - [Tree Sort](SortingAlgorithms/SortingAlgorithms.md#tree-sort)
 > - [Linear sorts](SortingAlgorithms/SortingAlgorithms.md#counting-sort)
 
-## [Problems Complexity](ProblemsComplexity/README.md#problems-complexity)
+## [Problems Complexity](ProblemsComplexity/ProblemsComplexity.md#problems-complexity)
 > It's just ***"Trivial Shit"***.
 
 ## We ***wish you luck*** for the exam! - **By every [contributors](Contributors/README.md#contributors)**
