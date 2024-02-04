@@ -14,9 +14,7 @@
 > - Key type
 > - Key quantity
 >
->       First you have an huge number of keys, but on runtime you use less.
->       Then you need an hash function that convert the key into a index for
->       make an access into an array Theta 1.
+>       Initially, you have a large number of keys, but you use fewer at runtime. Then, you need a hash function that converts the key into an index to access an >       array in constant time (Theta 1).
 >  **If 2 or more keys collide into the same index, there is a soluzion but is gonna slow into Theta n**
 > - Using a list
 >   
