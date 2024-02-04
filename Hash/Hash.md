@@ -1,16 +1,16 @@
 # Hash
 
-***Hashing is the solution to ton of things... not all.***
+***L'hashing è la soluzione ad un sacco di cose... ma non a tutte.***
 
-## Hash Table
+## Tabelle Hash
 > [!WARNING]
-> ### [Associative arrays](../Trees/Trees.md#associative-array-map-or-dictionary)
+> ### [Array associativi](../Trees/Trees.md#associative-array-map-or-dictionary)
 
 > [!NOTE]
 > 
->      Hash tables make and associative array, but insert delete and search is not made by comparison.
->      Worst case Theta n, and in the average case is Theta 1.
-> **Things to keep in mind:**
+>      Le tabelle hash creano un array associativo, ma inserimento, ricerca e cancellazione non sono fatti per comparazione.
+>      Caso peggiore Theta n, caso medio è Theta 1.
+> **Cose da tenere a mente:**
 > - Key type
 > - Key quantity
 >
