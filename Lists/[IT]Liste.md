@@ -1,15 +1,15 @@
-# Lists
+# Liste
 
-Is mostly doing the same for IT-Fundamentals
+Per la maggior parte è la stessa cosa del corso di fondamenti di informatica.
 
 ## RAM - Random Access Machine
 
-    RAM is an abstract machine even more elemental then Von Neumann's Machine
-    The memory is on the base of the RAM-Random Access Memory.
-    Sequenzial Imput and Output.
-    Every operation is constant, and the istructions are followed in linerity.
+    RAM è una macchina astratta ancora più elementare della macchina di Von Neumann.
+    La memoria è alla base di una RAM, infatti tutte le operazioni vengono eseguite direttamente in memoria.
+    Gli input e gli output sono gestiti in maniera sequenziale.
+    Ogni operazione è costante e le istruzioni si susseguono in maniera lineare.
 
-## Pointers
+## Puntatori
 
 ```c
 int a = 0; // define and set a
@@ -18,7 +18,7 @@ A = &a; // A now point to a
 *A = 5; // a = 5 using a pointer
 ```
 
-## Struct or ADT(Abstract Data Type)
+## Strutture or ADT(Abstract Data Type)
 
 ```c
 struct nodo{
@@ -26,22 +26,22 @@ struct nodo{
     struct nodo * next;
 }
 ```
-## "Pile" or Stack :
+## "Pile" o Stack :
 
 >    ### [LIFO - Last in First out]
->     You can immagine like a normal array of elements,
->     using functions like "Push" you insert the element in the first slot avaible,
->     and using "POP" you get and remove the last element.
+>     Puoi immaginarle come normali array di elementi,
+>     usando funzioni come "Push" inserisci l'elemento nel primo spazio disponibile,
+>     e usando "POP" ottieni e rimuovi l'ultimo elemento.
 
 ## Crescita Telescopica & Complessità ammortizzata:
 > [!NOTE]
 >
->     Whenever you reach the end of the Stack, you can Re-allocate by x2 the slots/size,
->     doing this you have a spike of Theta(N) of on that istance,
->     but you can think of amortize the spike, thinking to do the same work of that instance 
->     over time so it basicly become a constant Theta(1).
+>     Quando la Stack ha esaurito il suo spazio, puoi riallocare lo spazio originale moltiplicato per 2,
+>     facendo questo hai un picco  Theta(N) di quell'istanza,
+>     ma puoi ammortizzare quel picco, pensando che comunque quel lavoro lo dovrai fare nel tempo 
+>     ad ogni inserimento, quindi la costante Theta(N) diventa Theta(1). In pratica lo faccio tutto insieme adesso per non doverlo fare dopo.
 
-## "Code" or Queue:
+## Code:
 
 >    ### [FIFO - First in First out]
 >     You can immagine it like an circolar array (if you try to add in tail and exced the N value,
