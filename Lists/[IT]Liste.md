@@ -12,10 +12,10 @@ Per la maggior parte è la stessa cosa del corso di fondamenti di informatica.
 ## Puntatori
 
 ```c
-int a = 0; // define and set a
-int * A = NULL; //define a pointer not wild
-A = &a; // A now point to a
-*A = 5; // a = 5 using a pointer
+int a = 0; // define a
+int * A = NULL; //define a pointer (not wild)
+A = &a; // A now points to a
+*A = 5; // a = 5 because the pointer modifies the integer by reference
 ```
 
 ## Strutture or ADT(Abstract Data Type)
@@ -41,16 +41,16 @@ struct nodo{
 >     ma puoi ammortizzare quel picco, pensando che comunque quel lavoro lo dovrai fare nel tempo 
 >     ad ogni inserimento, quindi la costante Theta(N) diventa Theta(1). In pratica lo faccio tutto insieme adesso per non doverlo fare dopo.
 
-## Code:
+## Codice:
 
 >    ### [FIFO - First in First out]
->     You can immagine it like an circolar array (if you try to add in tail and exced the N value,
->     basicly you index+1 % N) of size N-1, using functions like "Enqueue" you can insert the element in the tail,
->     and using "Dequeue" you get and remove the head element.  
+>     Puoi immaginarlo come un array circolare (se provi ad aggiungere una "coda" e superi gli N valori massimi dell'array,
+>     in pratica esegui un (indice+1 % N) della dimensione N-1, poi usando funzioni come "Enqueue" puoi inserire l'elemento in coda
+>     mentre usando la funzione "Dequeue" ottieni e rimuovi l'elemento di testa e l'inserimento è fatto. 
 
-## [Sentinel node](https://en.wikipedia.org/wiki/Sentinel_node)
+## [Nodo sentinella](https://en.wikipedia.org/wiki/Sentinel_node)
 > [!TIP]
-> Usefull for Black&Red tree
+> Molto utile per gli alberi Rosso-Neri
 ```c
 nodo head = null;
 // set the 1st element to be a sentinel
@@ -63,16 +63,16 @@ head->info = NULL;
 //or a Special Value like -1 if you don't have negative elsewhere. 
 ```
 
-## Complextity:
+## Complessità:
 > [!CAUTION]
->#### Big-O notation (higher bind)
+>#### Notazione O-grande (limite superiore)
 >
->#### Theta notation (higher and lower bind)
+>#### Notazione Theta (limite superiore ed inferiore contemporaneamente)
 >
->#### Omega notation (lower bind)
+>#### Notazione Ω (limite inferiore)
 >
->#### [Time_complexity](https://en.wikipedia.org/wiki/Time_complexity): Constant , Logarithmic, Linear , Exponential, Factorial. 
+>#### [Complessità nel tempo](https://en.wikipedia.org/wiki/Time_complexity): Costante , Logaritmica , Lineare , Esponenziale, Fattoriale. 
 
-### Onerous & Faster Method:
-    The Onerous method is based on the sharp analisys of the pseudocode.
-    Meanwhile the Faster method add the different costs of each pice of code and the result is the asymptotic value of it.
+### Metodi veloce ed oneroso:
+>  - Il metodo oneroso è basato sulla attenta analisi di ogni passaggio dello pseudocodice.
+>  - Il metodo veloce (e più semplice) è quello di aggiungere i diversi costi di ogni pezzo di codice e il risultato è il valore asintotico di tutti i pezzi analizzati.
