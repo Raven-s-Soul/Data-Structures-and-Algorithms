@@ -1,49 +1,49 @@
-# Graphs
+# Grafi
 
 > [!TIP]
 >
-> ### Directed: `Oriented`
->    - Binary relations
+> ### Grafo orientato
+>    - Relazioni binarie
 >
-> ### Indirect:
-> Where there is no orientation and connections are just bi-directional
+> ### Indiretto:
+> Le relazioni sono non orientate e bidirezionali
 > 
-> ### Path:
-> Is a sequence of nodes that leads from one to another across arcs.
->    - Simple `if all nodes are differents`
->    - Lenght `is the sum of the arcs`
->    - Cycle `where first and last node are the same`
->       - Simple `if last and first node is the only one that is the same`
->       - Loop `if only one node and one arch pointing to itself`
->>      A simple graph has no loop, and is called acyclic if has no cycles.
+> ### Percorso:
+> È una sequenza di nodi da un nodo ad un altro in un determinato percorso.
+>    - Semplice `se tutti i nodi sono differenti`
+>    - Lunghezza `è la somma di tutti gli archi`
+>    - Ciclo `il primo e l'ultimo nodo coincidono`
+>       - Semplice `se il primo e l'ultimo nodo sono gli unici identici`
+>       - Loop `se è presente solo un nodo e un arco punta al nodo stesso`
+>>      Un grafo semplice non ha loops, ed è chiamato aciclico se non ha cicli.
 >  
 
-## Gaph lists:
+## Liste dei grafi:
 > [!NOTE]
-> Is an array and each element is a double linked list that has the index to the other nodes. 
+> È un array e ogni elemento è una lista doppiamente concatenata che ha un indice di collegamenti agli altri nodi. 
 > 
-> - Space used Big-O n + Big-O m `m = number of arcs, can go up to n^2`
->>       Keep scroll the list until is NULL the pointer. 
-> - Insert and delete are painfull and not efficent
+> - Spazio usato O-grande n + O-grande m `m = numero di archi, che al massimo può essere n^2`
+>>       Continua a scorrere la lista finché il puntatore è NULL. 
+> - Inserimento e cancellazione sono un disastro da implementare e inefficienti
 
-## Gaph matrix:
+## Matrice dei grafi:
 > [!NOTE]
-> Is a matrix n*n `n = numer of nodes` and if (i,k) equal 1 there is an arch from i to k. 
+> È una matrice n*n `n = numero di nodi` e se il valore (i,k) della matrice è uguale a 1 c'è un arco da i a k. 
 > 
-> - Space used Theta n^2
-> - Fast
->>       Can tell you easly if there is an arch from node to node.
-> - Insertion can be not efficent
+> - Spazio usato: Theta n^2
+> - Veloce
+>>       Può facilmente dirti se c'è un arco.
+> - L'inserimento può essere inefficiente
 
-## Gaph objects:
+## Oggetti dei grafi:
 > [!IMPORTANT]
-> Nodes and arcs are stored in doubly linked lists
-> - Every node has a list of arcs linked to him
-> - Every arc has a connection from and to
+> Nodi e archi sono conservati in liste doppiamente concatenate
+> - Ogni nodo ha una lista di archi collegata a sé.
+> - Ogni arco ha una connessione "from" e "to"
 >   
-> When we work with objects we usualy **mark** visited nodes to not cycle the path, we use color.
+> Quando lavoriamo con oggetti tipicamente **segnamo** i nodi visitati per non andare in loop con le visite (diciamo che "coloriamo" i nodi visitati).
 >
-> There are differents way to see the graphs like bfs and dfs.
+> Ci sono varie tecnice per la visita dei grafi come: bfs e dfs.
 >
 > - The node is ***reachable*** if there is a path to it.
 >
