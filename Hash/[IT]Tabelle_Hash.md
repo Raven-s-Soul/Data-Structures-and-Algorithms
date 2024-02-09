@@ -11,70 +11,70 @@
 >      Le tabelle hash creano un array associativo, ma inserimento, ricerca e cancellazione non sono fatti per comparazione.
 >      Caso peggiore Theta n, caso medio è Theta 1.
 > **Cose da tenere a mente:**
-> - Key type
-> - Key quantity
+> - Tipo di chiave
+> - Quantità di chiavi
 >
->       First you have an huge number of keys, but on runtime you use less.
->       Then you need an hash function that convert the key into a index for
->       make an access into an array Theta 1.
->  **If 2 or more keys collide into the same index, there is a soluzion but is gonna slow into Theta n**
-> - Using a list
+>       Prima hai un numero enorme di chiavi, ma a runtime ne usi meno.
+>       Poi hai bisogno di una funzione di hash che converte la chiave in un indice per
+>       fare un accesso in un array Theta 1.
+>  **Se 2 o più chiavi collidono nello stesso indice, c’è una soluzione ma rallenterà a Theta n**
+> - Usando una lista
 >   
->  **Hashmap = Hash key (Theta 1) + Equal (Theta ?) ->**
+>  **Hashmap = Hash chiave (Theta 1) + Equal (Theta ?) ->**
 
-## Equal Functions
-Chech that you found the right element in the list if keys collide.
-- *Theta n*  `need to be fast, but depenods on the key from Theta 1 to n`
+## Funzioni Equal
+Controlla che hai trovato l’elemento giusto nella lista se le chiavi collidono.
+- *Theta n*  `deve essere veloce, ma dipende dalla chiave da Theta 1 a n`
   
-The growth in case of key collide is gonna slow eventually into Theta n.
+La crescita in caso di collisione delle chiavi rallenterà a Theta n.
 
-## Hash Functions
+## Funzioni di Hash
 > [!TIP]
-> There are different functions and each work differently but we can immagine there is a black box
-> and we know only that with an input you get an output.
-> - *Deterministic* `same input same output`
-> - *Theta 1*  `need to be fast`
-> - *Uniform distribution* `each Hash(key)=index but unless you know the result there are equal chances`
-> - *Load factor*
->>     n = elements inserted, m = index range.
->>     if n/m = 1 every slot is used only 1 element
->>     if n/m > 1 more elements then the slots
->>     if n/m < 1 less elemntts then the slots
->>     n/m = Alpha can be used to describe the speed
-> When Alpha is getting too close to a specific value we double the m, but doing so can keep Theta 1 by splitting the cost with the past insertions (Theta 1) over time, like on the [complexity amortized](../Lists/Lists.md#crescita-telescopica--complessità-ammortizzata).
+> Ci sono diverse funzioni e ognuna funziona in modo diverso ma possiamo immaginare che ci sia una scatola nera
+> e sappiamo solo che con un input ottieni un output.
+> - *Deterministica* `stesso input stesso output`
+> - *Theta 1*  `deve essere veloce`
+> - *Distributione uniforme * `ogni Hash(chiave)=indice ma a meno che non conosci il risultato ci sono uguali probabilità`
+> - *Fattore di carico*
+>>     n = elementi inseriti, m = intervallo di indici.
+>>     se n/m = 1 ogni slot è usato solo da 1 elemento
+>>     se n/m > 1 più elementi degli slot
+>>     se n/m < 1 meno elementi degli slots
+>>     n/m = Alpha può essere usato per descrivere la velocità
+> Quando Alpha si avvicina troppo a un valore specifico raddoppiamo il m, ma facendo così possiamo mantenere Theta 1
+> dividendo il costo con le inserzioni passate (Theta 1) nel tempo, come sulla [complessità ammortizzata](../Lists/Lists.md#crescita-telescopica--complessità-ammortizzata).
 
-## Hash functions for differents data type are not included.
+## Le funzioni di hash per diversi tipi di dati non sono incluse..
 
-## Solution to collisions
+## Soluzione alle collisioni
 > [!IMPORTANT]
-> - Using a list
->   - Cost  
->     - Extra space
->     - Equal function can be slow
-> - Using open addressing
+> - Usando una lista
+>   - Costo  
+>     - Spazio extra
+>     - La funzione Equal può essere lenta
+> - Usando l’indirizzamento aperto
 >   - Pro
->     - Don't use extra space
->     - Alpha (n/m) <= 1 `m+1 insert generate overflow or telescopic growth`
->     - Can be made without using pointers
->>     How it works?
->>     If a collision happen, look up for a free slot that can be found from the start or near the index.
-> A ***Scanning Function*** is used:
->>     Take and index from 0 to m until you find one empthy, else overflow.
-
+>     - Non usa spazio extra
+>     - Alpha (n/m) <= 1 `m+1 inserimenti generano overflow o crescita telescopica`
+>     - Può essere fatto senza usare puntatori
+>>     Come funziona?
+>>     Se avviene una collisione, cerca uno slot libero che può essere trovato dall'inizio o vicino all'indice.
+> Si usa una ***Funzione di Scansione***:
+>>     Prendi un indice da 0 a m finché non ne trovi uno vuoto, altrimenti overflow.
 > [!CAUTION]
-> ***Delete*** for open addressing is critical, that's the reason we prefer using this solution when we don't need to *delete*.
+> ***Cancellare***  per l’indirizzamento aperto è critico, per questo motivo preferiamo usare questa soluzione quando non abbiamo bisogno di *cancellare*.
 >
-> Search complexity up to (1/Alpha)*ln(1/(1-Alpha))
+> Complessità di ricerca fino a (1/Alpha)*ln(1/(1-Alpha))
 
-## Scanning Function
+## Funzione di Scansione
 > [!NOTE]
-> - Linear
->    - hash(k)+1 mod(m) `from index+1 mod m until found`
-> - Quadratic
->    - hash(k)+ ***c1*** + ***c2***^2 mod(m) `c1, c2 depends on m`
-> - Double Hash
+> - Lineare
+>    - hash(k)+1 mod(m) `da indice+1 mod m fino a trovare`
+> - Quadratica
+>    - hash(k)+ ***c1*** + ***c2^2*** mod(m) `c1, c2 dipendono da m`
+> - Doppio Hash
 >    - hash1(k) + ***i*** * Hash2(k) mod(m)
->>     Hash1, Hash2 both auxialiary, but the first try is using Hask1.
->>     Need Hash2(K) > 0 and Hash2(K) need to be prime with m.
->>     Every key produce different index sequences, up to m^2 combiantions.
+>>     Hash1, Hash2 entrambe ausiliarie, ma il primo tentativo è usando Hash1.
+>>     Serve Hash2(K) > 0 e Hash2(K) deve essere primo con m.
+>>     Ogni chiave produce sequenze di indici diverse, fino a m^2 combinazioni.
 >>     
