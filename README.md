@@ -8,7 +8,7 @@
 > - [Struct/ADT](Lists/Lists.md#struct-or-adtabstract-data-type)
 > - [Stack](Lists/Lists.md#pile-or-stack-)
 > - [Queue](Lists/Lists.md#code-or-queue)
-> - [Complextity](Lists/Lists.md#complextity)
+> - [Complexity](Lists/Lists.md#complexity)
 
 ## [Trees](Trees/Trees.md)
 > [!IMPORTANT]
