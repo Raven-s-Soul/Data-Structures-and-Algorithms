@@ -1,25 +1,27 @@
 # Lists
 
-Is mostly doing the same for IT-Fundamentals
+Mostly the same material as for IT-Fundamentals.
 
 ## RAM - Random Access Machine
 
-    RAM is an abstract machine even more elemental then Von Neumann's Machine
-    The memory is on the base of the RAM-Random Access Memory.
-    Sequenzial Imput and Output.
-    Every operation is constant, and the istructions are followed in linerity.
+    RAM is an abstract machine model even more fundamental than Von Neumann's Machine.
+    Data is stored through a RAM (Random Access Memory) model.
+    Input and Output are sequences of data.
+    Every operation has a constant cost and the istructions are executed sequentially.
 
 ## Pointers
 
+e.g.:
 ```c
-int a = 0; // define and set a
-int * A = NULL; //define a pointer not wild
-A = &a; // A now point to a
-*A = 5; // a = 5 using a pointer
+int a = 0;  //define and initialize a variable 'a'
+int * A = NULL;  //define a 'non-wild' pointer
+A = &a;  //'A' now points to 'a'
+*A = 5;  //'a' is now set to 5, by updating the pointer 'A'
 ```
 
-## Struct or ADT(Abstract Data Type)
+## Structs or ADT(Abstract Data Type)
 
+e.g.:
 ```c
 struct nodo{
     int info;
@@ -29,51 +31,53 @@ struct nodo{
 ## "Pile" or Stack :
 
 >    ### [LIFO - Last in First out]
->     You can immagine like a normal array of elements,
->     using functions like "Push" you insert the element in the first slot avaible,
->     and using "POP" you get and remove the last element.
+>     You can immagine it like a normal array of elements.
+>     Using the function "PUSH" you insert the element in the first slot available,
+>     and using "POP" you obtain and then remove the last element from the Stack.
 
-## Crescita Telescopica & Complessità ammortizzata:
+## Telescopic Growth & Amortized analysis:
 > [!NOTE]
 >
->     Whenever you reach the end of the Stack, you can Re-allocate by x2 the slots/size,
->     doing this you have a spike of Theta(N) of on that istance,
->     but you can think of amortize the spike, thinking to do the same work of that instance 
->     over time so it basicly become a constant Theta(1).
+>     Whenever you reach the end of the Stack, you can allocate new memory
+>     to double its size, in order to make space for the new element.
+>     This is known as Telescopic Growth.
+> 
+>     By doing this, the complexity of the algorithm spikes to `Θ(n)`,
+>     where n is the number of elements already in the stack, when n reaches the end of the Stack.
+>     If you spread out the spike over the entire graph, you can find that the average cost for every value of n is `Θ(1)`.
 
 ## "Code" or Queue:
 
 >    ### [FIFO - First in First out]
->     You can immagine it like an circolar array (if you try to add in tail and exced the N value,
->     basicly you index+1 % N) of size N-1, using functions like "Enqueue" you can insert the element in the tail,
->     and using "Dequeue" you get and remove the head element.  
+>     You can imagine it like a circular list of size N-1.
+>     Using the function "ENQUEUE" you can insert an element in the tail,
+>     and using "DEQUEUE" you obtain and remove the head element.  
 
 ## [Sentinel node](https://en.wikipedia.org/wiki/Sentinel_node)
 > [!TIP]
-> Usefull for Black&Red tree
+> Useful for Red-black trees
 ```c
 nodo head = null;
-// set the 1st element to be a sentinel
+//set the 1st element to be a sentinel
 head->next = 1 element;
-// the actual head of the list
+//the actual head of the list
 head->prev = last element;
-// the tail of the list if has to be double connected
+//the tail of the list, assuming it is a doubly linked list
 head->info = NULL;
-// since is a sentinel, it should be a NULL value
-//or a Special Value like -1 if you don't have negative elsewhere. 
+//since it is a sentinel, it should have a value of NULL or -1 
 ```
 
-## Complextity:
+## Complexity:
 > [!CAUTION]
->#### Big-O notation (higher bind)
+>#### Big-O notation (upper bound)
 >
->#### Theta notation (higher and lower bind)
+>#### Theta notation (upper and lower bound)
 >
->#### Omega notation (lower bind)
+>#### Omega notation (lower bound)
 >
->#### [Time_complexity](https://en.wikipedia.org/wiki/Time_complexity): Constant , Logarithmic, Linear , Exponential, Factorial. 
+>#### [Time_complexity](https://en.wikipedia.org/wiki/Time_complexity): Constant, Logarithmic, Linear, Exponential, Factorial, etc. 
 
-### Onerous & Faster Method:
-    The Onerous method is based on the sharp analisys of the pseudocode.
-    Meanwhile the Faster method add the different costs of each pice of code and the result is the asymptotic value of it.
+### Taxing & Faster Method:
+    Taxing method: explicitly calculate the complexity based on the pseudocode and then study its an asymptotic behaviour.
+    Faster method: calculate the asymptotic cost of each portion of the pseudocode and then add them all up. 
 
