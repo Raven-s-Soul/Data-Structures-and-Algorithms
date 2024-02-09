@@ -45,15 +45,15 @@
 >
 > Ci sono varie tecnice per la visita dei grafi come: bfs e dfs.
 >
-> - The node is ***reachable*** if there is a path to it.
+> - Il nodo è ***raggiungibile*** se c'è un percorso che lo raggiunge.
 >
-> - If every pair of nodes are connected the graph is ***strongly connected***.
+> - Se ogni paio di nodi sono connessi, il grafo è ***fortemente connesso***.
 >
-> - **Component** is a bunch of nodes that are all connected, may be more then one component in a single graph.
+> - **Componenti** sono un pò di nodi tutti connessi, potrebbero esserci più componenti in un grafo.
 >
-> - Each component can be a ***strongly connected component***.
+> - Ogni componente può essere una componentee ***fortemente connessa***.
 
-### Graphs by objects (Struct) - Example form the tests
+### Grafi da oggetti (Struct) - Esempi dagli esami
 
 ```c
 typedef struct struct_nodo nodo;  // forward declaration
@@ -94,7 +94,7 @@ typedef struct struct_grafo {  // graph
 } grafo_o;
 ```
 
-### Example of solution
+### Esempio di soluzione
 
 ```c
 int test(grafo_o* g) {
@@ -109,7 +109,7 @@ int test(grafo_o* g) {
 }
 ```
 
-### Setup - Color all to 0
+### Setup - Colora tutti con uno "0"
 
 ```c
 void set(grafo_o * g){
@@ -119,7 +119,7 @@ void set(grafo_o * g){
 }
 ```
 
-### Count & "Color" linked nodes [DFS]
+### Conta & "colora" nodi connessi [DFS]
 
 ```c
 int dfs(nodo *n){    // or dfs(nodo *n, inv color)
