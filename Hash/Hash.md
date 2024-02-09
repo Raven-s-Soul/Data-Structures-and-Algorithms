@@ -1,15 +1,15 @@
 # Hash
 
-***Hashing is the solution to ton of things... not all.***
+***Hashing is the solution to many things... but not all.***
 
-## Hash Table
+## Hash Tables
 > [!WARNING]
-> ### [Associative arrays](../Trees/Trees.md#associative-array-map-or-dictionary)
+> ### [Associative Arrays](../Trees/Trees.md#associative-array-map-or-dictionary)
 
 > [!NOTE]
 > 
->      Hash tables make and associative array, but insert delete and search is not made by comparison.
->      Worst case Theta n, and in the average case is Theta 1.
+>      Hash tables creates an associative array, but insert, Search and deleting elements are not made by comparison.
+>      Worst case Theta n, average case Theta 1.
 > **Things to keep in mind:**
 > - Key type
 > - Key quantity
