@@ -1,22 +1,21 @@
 # Hash
 
-***Hashing is the solution to ton of things... not all.***
+***Hashing is the solution to many things... but not all.***
 
-## Hash Table
+## Hash Tables
 > [!WARNING]
-> ### [Associative arrays](../Trees/Trees.md#associative-array-map-or-dictionary)
+> ### [Associative Arrays](../Trees/Trees.md#associative-array-map-or-dictionary)
 
 > [!NOTE]
 > 
->      Hash tables make and associative array, but insert delete and search is not made by comparison.
->      Worst case Theta n, and in the average case is Theta 1.
+>      Hash tables creates an associative array, but insert, Search and deleting elements are not made by comparison.
+>      Worst case Theta n, average case Theta 1.
 > **Things to keep in mind:**
 > - Key type
 > - Key quantity
 >
->       First you have an huge number of keys, but on runtime you use less.
->       Then you need an hash function that convert the key into a index for
->       make an access into an array Theta 1.
+>       Initially, you have a large number of keys, but you use fewer at runtime. Then, you need a hash function  
+>       that converts the key into an index to access an array in constant time (Theta 1).
 >  **If 2 or more keys collide into the same index, there is a soluzion but is gonna slow into Theta n**
 > - Using a list
 >   
