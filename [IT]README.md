@@ -3,15 +3,15 @@
  - [English](./README.md)
  - [IT-Italiano](./[IT]README.md)
 
-## [Liste e Complessità](Lists/Lists.md)
+## [Liste e Complessità](Lists/[IT]Liste.md)
 > [!TIP]
 > È la base necessaria, una solida comprensione, come dopo Fondamenti di Informatica:
-> - [Random Access Machine](Lists/Lists.md#ram---random-access-machine)
-> - [Puntatori](Lists/Lists.md#Pointers)
-> - [Strutture/ADT](Lists/Lists.md#struct-or-adtabstract-data-type)
-> - [Stack/Pile](Lists/Lists.md#pile-or-stack-)
-> - [Queue/Code](Lists/Lists.md#code-or-queue)
-> - [Complessità](Lists/Lists.md#complexity)
+> - [Random Access Machine](Lists/[IT]Liste.md#ram---random-access-machine)
+> - [Puntatori](Lists/[IT]Liste.md#puntatori)
+> - [Strutture/ADT](Lists/[IT]Liste.md#strutture-or-adtabstract-data-type)
+> - [Stack/Pile](Lists/[IT]Liste.md#pile-o-stack-)
+> - [Queue/Code](Lists/[IT]Liste.md#code-o-queue-)
+> - [Complessità](Lists/[IT]Liste.md#complessità)
 
 ## [Alberi](Trees/Trees.md)
 > [!IMPORTANT]
