@@ -8,11 +8,11 @@
 > [!IMPORTANT]
 > ## Algoritmi greedy(golosi)
 > - Questo tipo di approccio cerca sempre il caso migliore al momento anche se alla lunga è il peggiore.
->     - [Selection sort](SortingAlgorithms.md#selection-sort)
+>     - [Selection sort]([IT]SortingAlgorithms.md#selection-sort)
 > ## Algoritmi iterativi
 > - Algoritmi semplici che riescono a risolvere problemi più grandi. 
->     - [Insertion sort](SortingAlgorithms.md#insertion-sort)
->     - [Heap sort](SortingAlgorithms.md#heap-sort)
+>     - [Insertion sort]([IT]SortingAlgorithms.md#insertion-sort)
+>     - [Heap sort]([IT]SortingAlgorithms.md#heap-sort)
 > ## Proprietà
 > - *in loco* `non hanno bisogno di spazio extra`
 > - *stabile* `non scambia l'ordine di valori uguali`
@@ -24,9 +24,9 @@
 > Equazioni o disequazioni che descrivono il suo valore asintotico.
 > ## Divide Et Impera
 > - Dividi il problema in più problemi più piccoli e semplici.
-> - [Iterative](SortingAlgorithms.md#greedy)
->   -  [Merge Sort](SortingAlgorithms.md#merge-sort)
->   -  [Quick Sort](SortingAlgorithms.md#quick-sort)
+> - [Iterative]([IT]SortingAlgorithms.md#algoritmi-greedygolosi)
+>   -  [Merge Sort]([IT]SortingAlgorithms.md#merge-sort)
+>   -  [Quick Sort]([IT]SortingAlgorithms.md#quick-sort)
 > ## Master theorem
 > - a,b > 1 
 > - a numbero di sotto-ricorsioni 
@@ -41,7 +41,7 @@
 >  [!NOTE]
 > Esempio: Cambia sempre il valore con il minimo disponibile poi vai avanti.
 > ### Theta n^2  
->  -  *[Greedy](SortingAlgorithms.md#greedy)*
+>  -  *[Greedy]([IT]SortingAlgorithms.md#algoritmi-greedygolosi)*
 >  -  *in loco*
 >  -  *stabile*
 
@@ -49,7 +49,7 @@
 >  [!NOTE]
 > Esempio: Lentamente prova a fare ordine in una parte e con il tempo aggiungi le altre parti a quella già ordinata.
 > ### Best case Theta n and others Theta n^2  
->  -  *[Iterativo](SortingAlgorithms.md#greedy)*
+>  -  *[Iterativo]([IT]SortingAlgorithms.md#algoritmi-greedygolosi)*
 >  -  *in loco*
 >  -  *stabile*
 
@@ -57,7 +57,7 @@
 >  [!NOTE]
 > Esempio: Dividi l'array in parti più piccole finché sono solo due numeri poi ordina e unisci con le altre coppie ordinate.
 > ###  Theta n*log(n)
->  -  *[Divide Et Impera](SortingAlgorithms.md#divide-et-impera)*
+>  -  *[Divide Et Impera]([IT]SortingAlgorithms.md#divide-et-impera)*
 >  -  *non in loco*
 >  -  *stabile*
 
@@ -75,11 +75,11 @@
 >   - Ad ogni iterazione del ciclo, scambia *Array[q]* con *Array[r]* e *ritorna q*.
 >>      Quando ottieni q puoi Quick_Sort(Array,p,q-1) e Quick_Sort(Array,q+1,r).
 > ###  Theta n*log(n) o Theta n^2
->  -  *[Divide Et Impera](SortingAlgorithms.md#divide-et-impera)*
+>  -  *[Divide Et Impera]([IT]SortingAlgorithms.md#divide-et-impera)*
 >  -  *In loco*
 >  -  *non stabile*
 
-## [Heap](../Trees/Trees.md#priority-queue-and-heap) Sort
+## [Heap](../Trees/[IT]Alberi.md#coda-di-priorità-e-heap) Sort
 ```c
 h.A = A; //New Heap
 h.size = A.lenght;
@@ -102,11 +102,11 @@ for( i = h.A.length-1; i > 1 ; i--) {
 >
 > 
 > ### Theta n*log(n)
->  -  *[Iterativo](SortingAlgorithms.md#greedy)*
+>  -  *[Iterativo]([IT]SortingAlgorithms.md#algoritmi-greedygolosi)*
 >  -  *non stabile*
 >  -  *in loco*
 
-## [Tree](../Trees/Trees.md#searching) Sort
+## [Tree](../Trees/[IT]Alberi.md#ricerca-negli-alberi) Sort
 ```c
 TREE_SORT(A){
   t.root = NULL;
