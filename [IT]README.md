@@ -13,14 +13,14 @@
 > - [Queue/Code](Lists/[IT]Liste.md#code-o-queue-)
 > - [Complessità](Lists/[IT]Liste.md#complessità)
 
-## [Alberi](Trees/Trees.md)
+## [Alberi](Trees/[IT]Alberi.md)
 > [!IMPORTANT]
 >  Concentrati, sembrano uguali ma non lo sono:  
-> - [Binari](Trees/Trees.md#binary)
-> - [Ricerca](Trees/Trees.md#searching)
-> - [Grado Arbitrario](Trees/Trees.md#arbitrary-grade)
-> - [Rosso-Neri](Trees/Trees.md#blackred)
-> - [Coda di Priorità e Heap](Trees/Trees.md#priority-queue-and-heap)
+> - [Binari](Trees/[IT]Alberi.md#alberi-binari)
+> - [Ricerca](Trees/[IT]Alberi.md#ricerca-negli-alberi)
+> - [Grado Arbitrario](Trees/[IT]Alberi.md#alberi-di-grado-arbitrario)
+> - [Rosso-Neri](Trees/[IT]Alberi.md#alberi-rosso-neri)
+> - [Coda di Priorità e Heap](Trees/[IT]Alberi.md#coda-di-priorità-e-heap)
 
 ## [Hash](Hash/Hash.md)
 > [!WARNING]
