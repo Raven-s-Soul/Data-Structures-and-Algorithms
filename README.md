@@ -1,5 +1,8 @@
 # Data-Structures-and-Algorithms [Roma3](https://www.uniroma3.it)
 
+ - [English](./README.md)
+ - [IT-Italiano](./[IT]README.md)
+
 ## [Lists and Time Complexity](Lists/Lists.md)
 > [!TIP]
 > Is the base needed, a strong understanding, like after IT-Fundamentals:
