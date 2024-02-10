@@ -1,5 +1,8 @@
 # Algoritmi e Strutture di dati [Roma3](https://www.uniroma3.it)
 
+ - [English](./README.md)
+ - [IT-Italiano](./[IT]README.md)
+
 ## [Liste e Complessità](Lists/Lists.md)
 > [!TIP]
 > È la base necessaria, una solida comprensione, come dopo Fondamenti di Informatica:
