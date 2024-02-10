@@ -41,7 +41,7 @@ struct nodo{
 >     ma puoi ammortizzare quel picco, pensando che comunque quel lavoro lo dovrai fare nel tempo 
 >     ad ogni inserimento, quindi la costante Theta(N) diventa Theta(1). In pratica lo faccio tutto insieme adesso per non doverlo fare dopo.
 
-## Codice:
+## "Code" o Queue :
 
 >    ### [FIFO - First in First out]
 >     Puoi immaginarlo come un array circolare (se provi ad aggiungere una "coda" e superi gli N valori massimi dell'array,
