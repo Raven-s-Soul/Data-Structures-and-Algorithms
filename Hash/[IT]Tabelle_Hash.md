@@ -4,7 +4,7 @@
 
 ## Tabelle Hash
 > [!WARNING]
-> ### [Array associativi](../Trees/Trees.md#associative-array-map-or-dictionary)
+> ### [Array associativi](../Trees/[IT]Alberi.md#array-associativo-map-or-dictionary)
 
 > [!NOTE]
 > 
@@ -42,7 +42,7 @@ La crescita in caso di collisione delle chiavi rallenterà a Theta n.
 >>     se n/m < 1 meno elementi degli slots
 >>     n/m = Alpha può essere usato per descrivere la velocità
 > Quando Alpha si avvicina troppo a un valore specifico raddoppiamo il m, ma facendo così possiamo mantenere Theta 1
-> dividendo il costo con le inserzioni passate (Theta 1) nel tempo, come sulla [complessità ammortizzata](../Lists/Lists.md#crescita-telescopica--complessità-ammortizzata).
+> dividendo il costo con le inserzioni passate (Theta 1) nel tempo, come sulla [complessità ammortizzata](../Lists/[IT]Liste.md#crescita-telescopica--complessità-ammortizzata).
 
 ## Le funzioni di hash per diversi tipi di dati non sono incluse..
 
