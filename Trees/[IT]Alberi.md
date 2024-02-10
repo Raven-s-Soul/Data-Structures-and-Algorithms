@@ -42,7 +42,7 @@ typedef nodo * tree;
 >     Sulla sinistra hai numeri più bassi e sulla destra hai i numeri più alti.
 >     In questo modo puoi cercare valori usando la ricerca binaria che è molto più veloce di quella lineare (log).
 > #### Complessità generale = Theta log(n)
->### [Tree Sort](../SortingAlgorithms/SortingAlgorithms.md#tree-sort)
+>### [Tree Sort](../SortingAlgorithms/[IT]SortingAlgorithms.md#tree-sort)
 
 ## Alberi di grado arbitrario
 
@@ -90,7 +90,7 @@ Coda di priorità: l'utente può inserire l'elemento con la sua priorità e quan
 >    La funzione **Max-heapify** rende il nodo ***i*** la probabilità più alta nel sottalbero costa al max Theta log(n).
 >
 >    La funzione **Build_Max_Heap** crea un heap da un array e costa al massimo "O-grande: n*log(n)".
->### [Heap Sort](../SortingAlgorithms/SortingAlgorithms.md#heap-sort)
+>### [Heap Sort](../SortingAlgorithms/[IT]SortingAlgorithms.md#heap-sort)
 
 # Funzioni che dovresti conoscere:
 
