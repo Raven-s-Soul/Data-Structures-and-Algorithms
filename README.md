@@ -8,7 +8,7 @@
 > Is the base needed, a strong understanding, like after IT-Fundamentals:
 > - [Random Access Machine](Lists/Lists.md#ram---random-access-machine)
 > - [Pointers](Lists/Lists.md#Pointers)
-> - [Struct/ADT](Lists/Lists.md#struct-or-adtabstract-data-type)
+> - [Struct/ADT](Lists/Lists.md#structs-or-adtabstract-data-type)
 > - [Stack](Lists/Lists.md#pile-or-stack-)
 > - [Queue](Lists/Lists.md#code-or-queue)
 > - [Complexity](Lists/Lists.md#complexity)
@@ -25,7 +25,7 @@
 ## [Hash](Hash/Hash.md)
 > [!WARNING]
 > It's mostly theory, so at least you should be able to understand what it is and how it works.
-> - [Hash Table](Hash/Hash.md#hash-table)
+> - [Hash Table](Hash/Hash.md#hash-tables)
 > - [Equal](Hash/Hash.md#equal-functions)
 > - [Hash Function](Hash/Hash.md#hash-functions) (Hash functions for differents data type are not included)
 > - [Solution to collisions](Hash/Hash.md#solution-to-collisions)
