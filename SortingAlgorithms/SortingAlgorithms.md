@@ -28,11 +28,17 @@
 >   -  [Merge Sort](SortingAlgorithms.md#merge-sort)
 >   -  [Quick Sort](SortingAlgorithms.md#quick-sort)
 > ## Master theorem
-> - a,b > 1 
+> - $`a,b > 1`$ 
 > - a number of sub-substance 
 > - b number of the element in the sub.
-> - T(n) = { Theta 1                    if n = 0
-> -            { a*T(n/b) + O(n^k)   if n > 0
+> ```math
+>  T(n) =
+> \begin{cases}     \text{Theta } 1      & \quad \text{if } n = 0
+> \\ a*T\frac{n}{b} + O(n^k)  & \quad \text{if } n > 0
+> \end{cases}
+> 
+> ```
+> 
 >>     if a < b^k -> T(n) = Theta n^k        | The first level has the most complexity
 >>     if a = b^k -> T(n) = Theta n^k log(k) | All level has the same complexity
 >>     if a > b^k -> T(n) = Theta n^logb(a)  | The last level has the most complexity
@@ -40,7 +46,7 @@
 ## Selection sort
 >  [!NOTE]
 > Ex: Always change the value with the lowest avaible then go next.
-> ### Theta n^2  
+> ### Theta $`n^2`$  
 >  -  *[is Greedy](SortingAlgorithms.md#greedy)*
 >  -  *is on site*
 >  -  *is stable*
@@ -48,7 +54,7 @@
 ## Insertion sort
 >  [!NOTE]
 > Ex: Slowly try to make order in just a part and with time add the other parts to the one is already ordered.
-> ### Best case Theta n and others Theta n^2  
+> ### Best case Theta n and others Theta $`n^2`$
 >  -  *[is Iterative](SortingAlgorithms.md#greedy)*
 >  -  *is on site*
 >  -  *is stable*
@@ -56,7 +62,7 @@
 ## Merge Sort
 >  [!NOTE]
 > Ex: Split the array in smaller ones till they are just 2 numbers then order and merge with others ordered pairs.
-> ###  Theta n*log(n)
+> ###  Theta $`n \log(n)`$
 >  -  *[Divide Et Impera](SortingAlgorithms.md#divide-et-impera)*
 >  -  *is not on site*
 >  -  *is stable*
@@ -74,7 +80,7 @@
 >       - Swap Array[counter] with Array[q] and q++ 
 >   - End loop, swap Array[q] with Array[r] and return q.
 >>     When you get q you can Quick_Sort(Array,p,q-1) and Quick_Sort(Array,q+1,r).
-> ###  Theta n*log(n) or Theta n^2
+> ###  Theta $`n \log(n)`$ or Theta $`n^2`$
 >  -  *[Divide Et Impera](SortingAlgorithms.md#divide-et-impera)*
 >  -  *is on site*
 >  -  *is not stable*
@@ -101,7 +107,7 @@ for( i = h.A.length-1; i > 1 ; i--) {
 >      -  then you decrease the iterator since you already did the swap on that value.
 >
 > 
-> ### Theta n*log(n)
+> ### Theta $`n \log(n)`$
 >  -  *[is Iterative](SortingAlgorithms.md#greedy)*
 >  -  *is not stable*
 >  -  *is on site*
@@ -124,8 +130,8 @@ TREE_SORT(A){
 >      -  `keeping always left smallest and right bigger values` 
 >  -  You read from the order you prefer the tree and insert in the Array
 > ### 
->  - Theta n^2 (not balanced)
->  - Big-O(n log n) (balanced)
+>  - Theta $`n^2`$ (not balanced)
+>  - Big-O($`n \log(n)`$) (balanced)
 >  - [Wiki](https://en.wikipedia.org/wiki/Tree_sort)
 >  - *is not on site*
 
