@@ -35,11 +35,17 @@ The growth in case of key collide is gonna slow eventually into Theta n.
 > - *Theta 1*  `need to be fast`
 > - *Uniform distribution* `each Hash(key)=index but unless you know the result there are equal chances`
 > - *Load factor*
->>     n = elements inserted, m = index range.
->>     if n/m = 1 every slot is used only 1 element
->>     if n/m > 1 more elements then the slots
->>     if n/m < 1 less elemntts then the slots
->>     n/m = Alpha can be used to describe the speed
+>> 
+>> $`n = `$ elements inserted, m = index range.
+>> 
+>> if $`\frac{n}{m} = 1`$ every slot is used only 1 element
+>> 
+>> if $`\frac{n}{m} > 1`$ more elements then the slots
+>> 
+>> if $`\frac{n}{m} < 1`$ less elemntts then the slots
+>> 
+>> $`\frac{n}{m} = `$ Alpha can be used to describe the speed
+>> 
 > When Alpha is getting too close to a specific value we double the m, but doing so can keep Theta 1 by splitting the cost with the past insertions (Theta 1) over time, like on the [complexity amortized](../Lists/Lists.md#crescita-telescopica--complessità-ammortizzata).
 
 ## Hash functions for differents data type are not included.
@@ -53,7 +59,7 @@ The growth in case of key collide is gonna slow eventually into Theta n.
 > - Using open addressing
 >   - Pro
 >     - Don't use extra space
->     - Alpha (n/m) <= 1 `m+1 insert generate overflow or telescopic growth`
+>     - Alpha  $`\frac{n}{m} \leq 1 \to`$  `m+1 insert generate overflow or telescopic growth`
 >     - Can be made without using pointers
 >>     How it works?
 >>     If a collision happen, look up for a free slot that can be found from the start or near the index.
@@ -63,16 +69,16 @@ The growth in case of key collide is gonna slow eventually into Theta n.
 > [!CAUTION]
 > ***Delete*** for open addressing is critical, that's the reason we prefer using this solution when we don't need to *delete*.
 >
-> Search complexity up to (1/Alpha)*ln(1/(1-Alpha))
+> Search complexity up to $`\frac{1}{Alpha} * \log (\frac{1}{1-Alpha})`$ 
 
 ## Scanning Function
 > [!NOTE]
 > - Linear
->    - hash(k)+1 mod(m) `from index+1 mod m until found`
+>    - $`hash(k)+1 \mod(m)`$ `from index+1 mod m until found`
 > - Quadratic
->    - hash(k)+ ***c1*** + ***c2***^2 mod(m) `c1, c2 depends on m`
+>    - $`hash(k)+ c_1 + c_2 ^2 \mod(m)`$ `c1, c2 depends on m`
 > - Double Hash
->    - hash1(k) + ***i*** * Hash2(k) mod(m)
+>    - $`hash1(k) + i * hash2(k) \mod(m)`$
 >>     Hash1, Hash2 both auxialiary, but the first try is using Hask1.
 >>     Need Hash2(K) > 0 and Hash2(K) need to be prime with m.
 >>     Every key produce different index sequences, up to m^2 combiantions.
