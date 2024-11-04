@@ -18,7 +18,7 @@
 > ### Decisional tree `(search for comparison)`
 > Is a tree where every internal node is a confronts and leaves are the output. `The lenght of a tree is Log(n)`
 >
-> For this reason a sorting by comparison is at least n*log(n).
+> For this reason a sorting by comparison is at least $`n*\log(n)`$.
 >
 
 > [!TIP]
